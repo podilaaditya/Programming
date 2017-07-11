@@ -1,0 +1,111 @@
+Buildfile: /Users/souris/development_trials/innoCameraService/build.xml
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.0.5
+ [checkenv] Installed at /Aditya/Android/sdk/android-sdk-macosx
+
+-setup:
+     [echo] Project Name: innoCameraService
+  [gettype] Project Type: Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.0.1
+     [echo] Resolving Build Target for innoCameraService...
+[gettarget] Project Target:   Android 4.0
+[gettarget] API level:        14
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: /Users/souris/development_trials/innoCameraService/bin
+    [mkdir] Created dir: /Users/souris/development_trials/innoCameraService/bin/res
+    [mkdir] Created dir: /Users/souris/development_trials/innoCameraService/gen
+    [mkdir] Created dir: /Users/souris/development_trials/innoCameraService/bin/classes
+    [mkdir] Created dir: /Users/souris/development_trials/innoCameraService/bin/dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for innoCameraService...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+[dependency] API<=15: Adding annotations.jar to the classpath.
+     [echo] ----------
+     [echo] Building Libraries with 'debug'...
+   [subant] No sub-builds to iterate on
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+[renderscript] No RenderScript files to compile.
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 10 source files to /Users/souris/development_trials/innoCameraService/bin/classes
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: /Users/souris/development_trials/innoCameraService/bin/classes
+      [dex] input: /Aditya/Android/sdk/android-sdk-macosx/tools/support/annotations.jar
+      [dex] input: /Users/souris/development_trials/innoCameraService/libs/alljoyn.jar
+      [dex] Pre-Dexing /Aditya/Android/sdk/android-sdk-macosx/tools/support/annotations.jar -> annotations-2d655632be334b861538710cc89b8bde.jar
+      [dex] Pre-Dexing /Users/souris/development_trials/innoCameraService/libs/alljoyn.jar -> alljoyn-102ed9fbb18cea5655da088e8a993f71.jar
+      [dex] Converting compiled files and external libraries into /Users/souris/development_trials/innoCameraService/bin/classes.dex...
+       [dx] Merged dex A (26 defs/33.5KiB) with dex B (2 defs/1.1KiB). Result is 28 defs/39.4KiB. Took 0.0s
+       [dx] Merged dex A (28 defs/39.4KiB) with dex B (99 defs/130.9KiB). Result is 127 defs/202.5KiB. Took 0.1s
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: /Users/souris/development_trials/innoCameraService/res
+   [crunch] To destination dir: /Users/souris/development_trials/innoCameraService/bin/res
+   [crunch] Processing image to cache: /Users/souris/development_trials/innoCameraService/res/drawable-hdpi/ic_launcher.png => /Users/souris/development_trials/innoCameraService/bin/res/drawable-hdpi/ic_launcher.png
+   [crunch]   (processed image to cache entry /Users/souris/development_trials/innoCameraService/bin/res/drawable-hdpi/ic_launcher.png: 0% size of source)
+   [crunch] Processing image to cache: /Users/souris/development_trials/innoCameraService/res/drawable-ldpi/ic_launcher.png => /Users/souris/development_trials/innoCameraService/bin/res/drawable-ldpi/ic_launcher.png
+   [crunch]   (processed image to cache entry /Users/souris/development_trials/innoCameraService/bin/res/drawable-ldpi/ic_launcher.png: 0% size of source)
+   [crunch] Processing image to cache: /Users/souris/development_trials/innoCameraService/res/drawable-mdpi/ic_launcher.png => /Users/souris/development_trials/innoCameraService/bin/res/drawable-mdpi/ic_launcher.png
+   [crunch]   (processed image to cache entry /Users/souris/development_trials/innoCameraService/bin/res/drawable-mdpi/ic_launcher.png: 0% size of source)
+   [crunch] Crunched 3 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating innoCameraService-debug-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: /Users/souris/development_trials/innoCameraService/bin/innoCameraService-debug.apk
+[propertyfile] Creating new property file: /Users/souris/development_trials/innoCameraService/bin/build.prop
+[propertyfile] Updating property file: /Users/souris/development_trials/innoCameraService/bin/build.prop
+[propertyfile] Updating property file: /Users/souris/development_trials/innoCameraService/bin/build.prop
+[propertyfile] Updating property file: /Users/souris/development_trials/innoCameraService/bin/build.prop
+
+-post-build:
+
+debug:
+
+BUILD SUCCESSFUL
+Total time: 10 seconds

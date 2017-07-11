@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical" >
+		<com.aptina.camera.components.ShutterButton
+		    android:id="@+id/btn_shutter"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="10dip"
+			android:layout_marginTop="10dip"
+			android:clickable="true"
+			android:focusable="true"
+			android:scaleType="center"
+			android:src="@drawable/shutter_button_video" />
+		<ImageView android:id="@+id/dvs_on"
+			android:contentDescription="DVS on"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/icon_active_dvs"
+			android:layout_toLeftOf="@id/btn_shutter"
+			android:layout_alignBottom="@id/btn_shutter"
+			android:clickable="true"
+			android:focusable="true"
+			android:layout_margin="18dp"
+			android:visibility="gone"/>
+		<ImageView
+			android:id="@+id/img_camera_change"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dip"
+			android:layout_marginTop="10dip"
+			android:clickable="true"
+			android:src="@drawable/camera_change"
+			android:visibility="gone" />
+		<LinearLayout
+			android:id="@+id/video_recording_indicator"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+			android:layout_marginBottom="5dip"
+			android:layout_marginRight="10dip"
+			android:orientation="horizontal"
+			android:visibility="gone">
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical"
+				android:scaleType="center"
+				android:src="@drawable/red_circle" />
+
+			<TextView
+				android:id="@+id/record_time"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dip"
+				android:text="@string/recording_time"
+				android:textColor="@android:color/white"/>
+		</LinearLayout>
+		
+		<ImageView
+		    android:id="@+id/hdr_overlay_indicator"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignBottom="@+id/btn_shutter"
+			android:layout_alignTop="@+id/btn_shutter"
+			android:layout_marginRight="10dp"
+			android:layout_toLeftOf="@+id/btn_shutter"
+			android:background="@drawable/icon_active_hdr"
+			android:clickable="false"
+			android:focusable="false"
+			android:visibility="invisible"
+			android:scaleType="center"/>
+</RelativeLayout>

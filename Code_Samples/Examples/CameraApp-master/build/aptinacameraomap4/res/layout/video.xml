@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aptina.camera.components.FanView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.aptina"
+    android:id="@+id/fan_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:fanOrientation="vertical"
+    app:menuSize="@dimen/fan_menu_size" />

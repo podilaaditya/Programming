@@ -1,0 +1,22 @@
+## to run: ". sourceme" or "source sourceme"
+
+RELEASE=lim-openmax-1.1
+
+chmod +x repo
+
+mkdir ${RELEASE}
+cd ${RELEASE}
+../repo init -u git://github.com/bosm/manifest -b ${RELEASE}
+../repo sync
+
+export PATH=$PWD/bos/bin:$PWD/build/native/usr/bin:$PATH
+bosm
+
+if [ $? = 0 ]; then
+	echo
+	echo "##########################################
+	echo "to test run:  limoxplay <your-media-file>"
+	echo
+fi
+export LD_LIBRARY_PATH=$PWD/build/native/usr/lib
+

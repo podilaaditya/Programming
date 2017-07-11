@@ -1,0 +1,16 @@
+
+// using namespace std;
+
+// class Test {
+
+//    	char a;
+//    	int b;
+
+// };
+
+	
+
+// int main () {
+
+// 	std::cout<< sizeof(Test);
+// }

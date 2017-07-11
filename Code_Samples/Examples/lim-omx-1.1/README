@@ -1,0 +1,60 @@
+#### to bootstrap, type: . sourceme
+
+LIM can now be built with bosm(http://bosm.github.com) build system,
+with the following main benefits,
+
+    - parallel build with significant build speedup
+
+    - each OpenMAX component and limoi-core plugin can easily be built separately
+
+    - per package info can be easily checked/displayed
+
+Most importantly, going with bosm build system prepares LIM OpenMAX for future
+cross-compile support.
+
+to access LIM OpenMAX through bosm,
+
+    repo init -u git://github.com/bosm/manifest -b lim-openmax && repo sync
+    export PATH=$PWD/bos/bin:$PATH
+    bosm
+
+after the build, to access limox player:
+
+    cd build/native/usr
+    LD_LIBRARY_PATH=$PWD/lib bin/limoxplay <your media file>
+
+
+Here's a sample bosm outputs,
+
+bosm limoi-core-info
+--------------------------------------------------------------------------------
+NAME        : limoi-core-native
+DESCRIPTION :
+    LIM OpenMAX Integration Layer
+    limoi-core provides the component loader and all OpenMAX integration
+    layer APIs, it is designed to work with any integration layer components,
+    in addition to those developed under limoi framework.
+--------------------------------------------------------------------------------
+MK          : /home/mgao/mg/bosm/bm/lim/limoi-core.mk
+SRC         : /home/mgao/mg/bosm/package/lim/limoi-core
+DEPEND      : limutil-native
+--------------------------------------------------------------------------------
+
+limoi-core-devel-native:
+    lrwxrwxrwx root:root         22 /usr/lib/liblimoi-core.so
+    -rw-r--r-- root:root        293 /usr/lib/pkgconfig/liblimoi-core.pc
+    -rw-r--r-- root:root      13267 /usr/include/OMX_Image.h
+    -rw-r--r-- root:root      32458 /usr/include/OMX_IVCommon.h
+    -rw-r--r-- root:root      44252 /usr/include/OMX_Video.h
+    -rw-r--r-- root:root       9222 /usr/include/OMX_ContentPipe.h
+    -rw-r--r-- root:root      77044 /usr/include/OMX_Audio.h
+    -rw-r--r-- root:root      69514 /usr/include/OMX_Core.h
+    -rw-r--r-- root:root      23869 /usr/include/OMX_Component.h
+    -rw-r--r-- root:root      17885 /usr/include/OMX_Index.h
+    -rw-r--r-- root:root      12834 /usr/include/OMX_Types.h
+    -rw-r--r-- root:root       4319 /usr/include/OMX_Lim.h
+    -rw-r--r-- root:root      17931 /usr/include/OMX_Other.h
+
+limoi-core-native:
+    lrwxrwxrwx root:root         22 /usr/lib/liblimoi-core.so.0
+    -rwxr-xr-x root:root     145000 /usr/lib/liblimoi-core.so.0.0.0

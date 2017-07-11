@@ -1,0 +1,64 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="send_message_checkbox"
+        android:summary="@string/pref_send_sms"
+        android:title="@string/pref_send_sms" />
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_sms_message"
+        android:inputType="textCapWords"
+        android:key="message_text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_sms_message" />
+
+    
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="textWebEmailAddress"
+        android:key="email_text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_email_reciever" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="phone"
+        android:key="alternate_number_text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_alternate_number" />    
+    
+ 	<!--  
+ 	<ListPreference
+        android:defaultValue="@null"
+        android:key="google_account_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_google_account_list" /> 
+    -->
+    <!--
+         NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it.
+    -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+	<ListPreference
+        android:defaultValue="1"
+        android:entries="@array/email_frequency_list_titles"
+        android:entryValues="@array/email_frequency_list_values"
+        android:key="email_frequency_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_email_fequency" /> 
+
+</PreferenceScreen>

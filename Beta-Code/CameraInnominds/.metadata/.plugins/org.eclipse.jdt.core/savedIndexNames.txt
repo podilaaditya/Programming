@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/home/apodila/CameraInnominds/.metadata/.plugins/org.eclipse.jdt.core
+4051086222.index
+259279892.index
+3085084838.index

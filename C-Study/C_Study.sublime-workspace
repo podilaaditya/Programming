@@ -1,0 +1,397 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"AOSP",
+				"WORK_AOSP_FOLDER"
+			],
+			[
+				"RE",
+				"REPO_PATH"
+			],
+			[
+				"inn",
+				"innocameraservice"
+			],
+			[
+				"C",
+				"COMMON_OS"
+			],
+			[
+				"pt",
+				"ptrB"
+			],
+			[
+				"NCC",
+				"NCCommonUtilities"
+			],
+			[
+				"s",
+				"service"
+			],
+			[
+				"d",
+				"def	#ifndef … #define … #endif"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Android/Android.sublime-build",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Namespace"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"task",
+				"Task Timer: Stop"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 694.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/apodila/.bashrc",
+		"/Users/apodila/Work/Programming/C-Study/Test.cpp",
+		"/Users/apodila/Work/Programming/C-Study/VirtualFunctions.cpp",
+		"/Users/apodila/Work/Programming/C-Study/a.out",
+		"/Users/apodila/Work/Programming/C-Study/C_Study.sublime-workspace",
+		"/Users/apodila/Work/Programming/C-Study/C_Study.sublime-project",
+		"/Users/apodila/Work/Programming/C-Study/bufferOverFlow.c",
+		"/Users/apodila/Work/Programming/C-Study/pointer.c",
+		"/Users/apodila/Work/Programming/C-Study/Common.h",
+		"/Users/apodila/Work/Programming/C-Study/boo.c",
+		"/Users/apodila/Work/Programming/C-Study/DataTypes.c",
+		"/Users/apodila/Work/Programming/C-Study/Threads.c",
+		"/home/apodila/Work/AndroidAOSPContib/android-issues_camera.csv",
+		"/home/apodila/Work/AndroidAOSPContib/android-issues (1).csv",
+		"/home/apodila/Work/AndroidAOSPContib/android-issues (2).csv",
+		"/home/apodila/Work/AndroidAOSPContib/android-issues (3).csv",
+		"/home/apodila/Downloads/bugreport-2013-09-06-13-49-59.txt",
+		"/home/apodila/C-Study/Threads.c",
+		"/home/apodila/Desktop/Beta-Code/innoCameraService/src/com/innominds/innocameraservice/camera/CameraPreview.java",
+		"/home/apodila/Desktop/Beta-Code/innoCameraService/src/com/innominds/innocameraservice/InnoCameraServiceApplication.java",
+		"/home/apodila/Desktop/Beta-Code/innoCameraService/src/com/innominds/innocameraservice/InnoAllJoynCameraService.java",
+		"/home/apodila/Desktop/1.java",
+		"/home/apodila/Desktop/Beta-Code/innoCameraService/src/com/innominds/innocameraservice/AllJoynCameraService.java",
+		"/home/apodila/Desktop/Beta-Code/innoCameraService/src/com/innominds/innocameraservice/InnoCameraService.java",
+		"/home/apodila/Work/innominds/Android/alljoyn-3.3.2-android-sdk-dbg/java/samples/contacts/ContactsService/src/org/alljoyn/bus/samples/contacts_service/NameId.java",
+		"/home/apodila/Work/innominds/Android/alljoyn-3.3.2-android-sdk-dbg/java/samples/contacts/ContactsService/src/org/alljoyn/bus/samples/contacts_service/Contact.java",
+		"/home/apodila/Work/innominds/Android/alljoyn-3.3.2-android-sdk-dbg/java/samples/contacts/ContactsService/src/org/alljoyn/bus/samples/contacts_service/AddressBookInterface.java",
+		"/home/apodila/Work/innominds/Android/alljoyn-3.3.2-android-sdk-dbg/java/samples/contacts/ContactsService/src/org/alljoyn/bus/samples/contacts_service/ContactsService.java",
+		"/home/apodila/Work/innominds/Android/alljoyn-3.3.2-android-sdk-dbg/java/samples/contacts/ContactsService/AndroidManifest.xml",
+		"/home/apodila/Desktop/innoCameraService/readme.txt",
+		"/home/apodila/Desktop/innoCameraService/innoCameraService.sublime-project",
+		"/home/apodila/Desktop/InnoCameraAllJoyn/InnoCameraAllJoyn.sublime-project",
+		"/home/apodila/Desktop/InnoCameraAllJoyn/readme.txt",
+		"/home/apodila/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
+		"/home/apodila/Downloads/alljoyn-3.3.2-android-sdk-dbg/java/samples/simple/service/AndroidManifest.xml",
+		"/home/apodila/Downloads/alljoyn-3.3.2-android-sdk-dbg/README.txt",
+		"/home/apodila/Downloads/alljoyn-3.3.2-android-sdk-dbg/README.md",
+		"/home/apodila/Downloads/alljoyn-3.3.2-android-sdk-dbg/AllJoyn_API_Changes_java.txt",
+		"/home/apodila/Downloads/alljoyn-3.3.2-android-sdk-dbg/AllJoyn_API_Changes_cpp.txt",
+		"/home/apodila/Work/AOSP/hardware/msm7k/libcamera/camera_ifc.h",
+		"/home/apodila/Work/AOSP/hardware/ti/omap4xxx/camera/CameraHal_Module.cpp",
+		"/home/apodila/Work/AOSP/hardware/ti/omap4xxx/camera/CameraHalCommon.cpp",
+		"/home/apodila/Work/AOSP/hardware/msm7k/libcamera/QualcommCameraHardware.h",
+		"/home/apodila/Work/AOSP/hardware/msm7k/libcamera/QualcommCameraHardware.cpp",
+		"/etc/apt/sources.list.save",
+		"/etc/apt/sources.list",
+		"/sys/kernel/notes",
+		"/home/apodila/Downloads/TestMulticast/AndroidManifest.xml",
+		"/home/apodila/Downloads/TestMulticast/src/org/itri/android/TestMulticast.java",
+		"/home/apodila/Downloads/Lenskart/src/com/innominds/lenskart/Main.java",
+		"/home/apodila/Downloads/Lenskart/src/com/innominds/lenskart/Listener/EclairMotionEvent.java",
+		"/home/apodila/Downloads/Lenskart/src/com/innominds/lenskart/Listener/OnProgressBarChanged.java",
+		"/home/apodila/Downloads/Lenskart/src/com/innominds/lenskart/Listener/WrapMotionEvent.java",
+		"/home/apodila/Downloads/Lenskart/src/com/innominds/lenskart/TouchImageView.java",
+		"/home/apodila/Downloads/Lenskart/src/com/dms/jagdambajewellers/util/Constents.java",
+		"/home/apodila/Downloads/Lenskart/src/com/dms/jagdambajewellers/util/FileCache.java",
+		"/home/apodila/Downloads/Lenskart/src/com/dms/jagdambajewellers/util/ImageLoader.java",
+		"/home/apodila/Downloads/Lenskart/src/com/dms/jagdambajewellers/util/MemoryCache.java",
+		"/home/apodila/Downloads/Lenskart/src/com/dms/jagdambajewellers/util/Utils.java",
+		"/home/apodila/C-Study/DataTypes.c",
+		"/home/apodila/Work/AOSP/hardware/ti/omap4xxx/camera/AppCallbackNotifier.cpp",
+		"/home/apodila/Work/AOSP/hardware/ti/omap4xxx/camera/BaseCameraAdapter.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/Camera3Device.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/Camera3Device.h",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/CameraDeviceBase.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/CameraDeviceBase.h",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/CameraHardwareInterface.h",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/CameraService.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/CameraService.h",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/ProCamera2Client.h",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/ProCamera2Client.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/CameraClient.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/CameraClient.h",
+		"/home/apodila/Work/AOSP/hardware/ti/omap4xxx/camera/CameraProperties.cpp",
+		"/home/apodila/Work/AOSP/hardware/ti/omap4xxx/camera/CameraParameters.cpp",
+		"/home/apodila/Work/AOSP/hardware/ti/omap4xxx/camera/CameraHal.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/camera3/Camera3InputStream.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/camera3/Camera3InputStream.h",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/camera3/Camera3IOStreamBase.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/camera3/Camera3IOStreamBase.h",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/camera3/Camera3OutputStream.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/camera3/Camera3OutputStream.h",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/camera3/Camera3OutputStreamInterface.h",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/camera3/Camera3Stream.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/camera3/Camera3Stream.h",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/camera3/Camera3StreamBufferListener.h",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/camera3/Camera3StreamInterface.h",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/camera3/Camera3ZslStream.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/camera3/Camera3ZslStream.h",
+		"/home/apodila/Desktop/209010207740",
+		"/home/apodila/Downloads/code/btr.c",
+		"/home/apodila/Downloads/code/ext.c",
+		"/home/apodila/Downloads/code/has.c",
+		"/home/apodila/Downloads/code/ins.c",
+		"/home/apodila/Downloads/code/qsort.c",
+		"/home/apodila/Downloads/code/qui.c",
+		"/home/apodila/Downloads/code/quilist.c",
+		"/home/apodila/Downloads/code/rbt.c",
+		"/home/apodila/Downloads/code/rbtr.c",
+		"/home/apodila/Downloads/code/rbtr.h",
+		"/home/apodila/Downloads/code/rbtrmain.c",
+		"/home/apodila/Downloads/code/shl.c",
+		"/home/apodila/Downloads/code/skl.c",
+		"/home/apodila/Downloads/code/bin.c",
+		"/home/apodila/Downloads/code/Makefile",
+		"/home/apodila/Downloads/code/Makefile.v6",
+		"/home/apodila/Downloads/code/Makefile.unix",
+		"/home/apodila/Downloads/code/0readme.txt",
+		"/home/apodila/aditya",
+		"/home/apodila/aditya.pub",
+		"/home/apodila/.cache/.fr-0FrSPR/aditya.pub",
+		"/home/apodila/Downloads/unnamed (1).txt",
+		"/home/apodila/8x25_hyd.pub",
+		"/home/apodila/8x25_hyd.pub.pub",
+		"/home/apodila/.cache/.fr-rnvzMV/node-v0.10.15-linux-x86/README.md",
+		"/home/apodila/Downloads/node-v0.10.15-linux-x86/lib/dtrace/node.d",
+		"/home/apodila/Downloads/android_exynosv4l2_test/exynosv4l2_test.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/camera/ICameraService.cpp",
+		"/home/apodila/C-Study/pointer.c",
+		"/home/apodila/Work/AOSP/hardware/samsung_slsi/exynos5/libv4l2/exynos_v4l2.c",
+		"/home/apodila/Work/AOSP/hardware/samsung_slsi/exynos5/libv4l2/exynos_subdev.c",
+		"/home/apodila/Work/AOSP/hardware/samsung_slsi/exynos5/libv4l2/exynos_mc.c",
+		"/home/apodila/Work/AOSP/hardware/samsung_slsi/exynos5/libv4l2/Android.mk",
+		"/home/apodila/Work/AOSP/frameworks/av/camera/ICameraClient.cpp",
+		"/home/apodila/.cache/.fr-AFiy9S/qui.c",
+		"/home/apodila/Work/AOSP/frameworks/av/camera/ICamera.cpp",
+		"/home/apodila/Downloads/android_exynosv4l2_test/Android.mk",
+		"/home/apodila/Downloads/opensensing/AndroidManifest.xml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n",
+			"mHandler.sendMessage",
+			"mHandler",
+			"BusHandler",
+			"getAllContactNames",
+			"SignalEmitter",
+			"http://us.archive.ubuntu.com/ubuntu",
+			"wifi",
+			"CAMERA_MODULE_API",
+			"CAMERA_MODULE_",
+			"CAMERA_MODULE_API_VERSION_2_1",
+			"set_callbacks",
+			"hw_get_module",
+			"CameraAdapter_Factory",
+			"Exynos_v4l2_In",
+			"setupMediaLinksForCamera",
+			"v",
+			",",
+			"DefaultSchedule",
+			"NCCloudService",
+			"extends intentservice",
+			"mServiceHelper",
+			"NCCloudService",
+			"extends intentservice",
+			"extends service",
+			"ACTION",
+			"AppStoreAsyncTask",
+			"appcontroller",
+			"NCAppControler",
+			"Copystrem",
+			"doInBackground",
+			"CopystremAsync",
+			"keyst",
+			"ant.properties",
+			"key",
+			"uses-sdk",
+			"manifest",
+			"\n<",
+			"<?",
+			"application",
+			"</",
+			"application",
+			"java.compilerargs",
+			"ContentActivity",
+			"sublime",
+			"py",
+			"tri"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\n    "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"replace":
+	{
+		"height": 102.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"src/main/java/com/company/CompanyService.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 304.0,
+	"status_bar_visible": true
+}

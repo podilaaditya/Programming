@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fan_menu_size"
+    android:background="@drawable/minimal_gray"
+    android:id="@+id/fan_video_menu_view" >
+    
+    <!-- Switch buttons and text-->
+    <TextView android:id="@+id/fan_menu_exposure_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/fan_menu_switchtext_padding"
+        android:text="@string/fan_menu_exposure_switch_text"/>
+    <Switch android:id="@+id/fan_menu_exposure_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/fan_menu_exposure_text"
+        android:padding="@dimen/fan_menu_switchtext_padding"
+        android:textOff="@string/fan_menu_exposure_switch_off_text"
+        android:textOn="@string/fan_menu_exposure_switch_on_text"/>	
+        
+    <Switch android:id="@+id/fan_menu_hdr_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/fan_menu_switchtext_padding"
+        android:textOff="@string/fan_menu_hdr_switch_off_text"
+        android:textOn="@string/fan_menu_hdr_switch_on_text"/>
+    <TextView android:id="@+id/fan_menu_hdr_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/fan_menu_switchtext_padding"
+        android:layout_toLeftOf="@id/fan_menu_hdr_switch"
+        android:text="@string/fan_menu_hdr_switch_text"/>
+        
+    <!-- First Row of seek bars and text -->
+	<SeekBar android:id="@+id/time_seekBar"
+	    android:layout_width="@dimen/fan_menu_seek_bar_width"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@id/fan_menu_exposure_text"
+	    style="@style/Fan_Menu_SeekBar"/>
+	<TextView android:id="@+id/time_seek_bar_text"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/time_seekBar"
+        android:layout_below="@id/time_seekBar"
+        android:paddingRight="@dimen/fan_menu_seek_bar_text_padding_right"
+        android:textSize="@dimen/fan_menu_seek_bar_text_size"
+        android:text="@string/fan_menu_time_seek_bar_text"/>
+	<SeekBar
+	    android:id="@+id/ratio_seekBar"
+	    android:layout_width="@dimen/fan_menu_seek_bar_width"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_below="@id/fan_menu_hdr_text"
+	    style="@style/Fan_Menu_SeekBar" />
+	<TextView android:id="@+id/ratio_seek_bar_text"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/ratio_seekBar"
+        android:layout_below="@id/ratio_seekBar"
+        android:paddingRight="@dimen/fan_menu_seek_bar_text_padding_right"
+        android:textSize="@dimen/fan_menu_seek_bar_text_size"
+        android:text="@string/fan_menu_ratio_seek_bar_text"/>
+	    
+	<!-- Second Row of seek bars and text -->
+	<SeekBar
+	    android:id="@+id/iso_seekBar"
+	    android:layout_width="@dimen/fan_menu_seek_bar_width"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@id/time_seek_bar_text"
+	    style="@style/Fan_Menu_SeekBar"/>
+	<TextView android:id="@+id/iso_seek_bar_text"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/iso_seekBar"
+        android:layout_below="@id/iso_seekBar"
+        android:paddingRight="@dimen/fan_menu_seek_bar_text_padding_right"
+        android:textSize="@dimen/fan_menu_seek_bar_text_size"
+        android:text="@string/fan_menu_iso_seek_bar_text"/>
+	<SeekBar
+	    android:id="@+id/tone_seekBar"
+	    android:layout_width="@dimen/fan_menu_seek_bar_width"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_below="@id/ratio_seek_bar_text"
+	    style="@style/Fan_Menu_SeekBar" />
+	<TextView android:id="@+id/tone_seek_bar_text"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tone_seekBar"
+        android:layout_below="@id/tone_seekBar"
+        android:paddingRight="@dimen/fan_menu_seek_bar_text_padding_right"
+        android:textSize="@dimen/fan_menu_seek_bar_text_size"
+        android:text="@string/fan_menu_tone_seek_bar_text"/>
+</RelativeLayout>

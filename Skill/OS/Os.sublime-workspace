@@ -1,0 +1,387 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"C",
+				"COMMON_OS"
+			],
+			[
+				"pt",
+				"ptrB"
+			],
+			[
+				"NCC",
+				"NCCommonUtilities"
+			],
+			[
+				"s",
+				"service"
+			],
+			[
+				"d",
+				"def	#ifndef … #define … #endif"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Android/Android.sublime-build",
+	"command_palette":
+	{
+		"height": 285.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Namespace"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"task",
+				"Task Timer: Stop"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 694.0,
+		"history":
+		[
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/apodila/Skill/OS/Common_Os.h",
+		"/home/apodila/Skill/OS/Error.h",
+		"/home/apodila/Skill/OS/Common_Os.c",
+		"/home/apodila/Work/AOSP/hardware/ti/omap4xxx/camera/CameraHal.cpp",
+		"/home/apodila/Desktop/209010207740",
+		"/home/apodila/Downloads/code/btr.c",
+		"/home/apodila/Downloads/code/ext.c",
+		"/home/apodila/Downloads/code/has.c",
+		"/home/apodila/Downloads/code/ins.c",
+		"/home/apodila/Downloads/code/qsort.c",
+		"/home/apodila/Downloads/code/qui.c",
+		"/home/apodila/Downloads/code/quilist.c",
+		"/home/apodila/Downloads/code/rbt.c",
+		"/home/apodila/Downloads/code/rbtr.c",
+		"/home/apodila/Downloads/code/rbtr.h",
+		"/home/apodila/Downloads/code/rbtrmain.c",
+		"/home/apodila/Downloads/code/shl.c",
+		"/home/apodila/Downloads/code/skl.c",
+		"/home/apodila/Downloads/code/bin.c",
+		"/home/apodila/Downloads/code/Makefile",
+		"/home/apodila/Downloads/code/Makefile.v6",
+		"/home/apodila/Downloads/code/Makefile.unix",
+		"/home/apodila/Downloads/code/0readme.txt",
+		"/home/apodila/aditya",
+		"/home/apodila/aditya.pub",
+		"/home/apodila/.cache/.fr-0FrSPR/aditya.pub",
+		"/home/apodila/Downloads/unnamed (1).txt",
+		"/home/apodila/8x25_hyd.pub",
+		"/home/apodila/8x25_hyd.pub.pub",
+		"/home/apodila/.cache/.fr-rnvzMV/node-v0.10.15-linux-x86/README.md",
+		"/home/apodila/Downloads/node-v0.10.15-linux-x86/lib/dtrace/node.d",
+		"/home/apodila/Downloads/android_exynosv4l2_test/exynosv4l2_test.cpp",
+		"/home/apodila/Work/AOSP/hardware/msm7k/libcamera/QualcommCameraHardware.h",
+		"/home/apodila/Work/AOSP/frameworks/av/camera/ICameraService.cpp",
+		"/home/apodila/Work/AOSP/hardware/msm7k/libcamera/QualcommCameraHardware.cpp",
+		"/home/apodila/C-Study/pointer.c",
+		"/home/apodila/Work/AOSP/hardware/samsung_slsi/exynos5/libv4l2/exynos_v4l2.c",
+		"/home/apodila/Work/AOSP/hardware/samsung_slsi/exynos5/libv4l2/exynos_subdev.c",
+		"/home/apodila/Work/AOSP/hardware/samsung_slsi/exynos5/libv4l2/exynos_mc.c",
+		"/home/apodila/Work/AOSP/hardware/samsung_slsi/exynos5/libv4l2/Android.mk",
+		"/home/apodila/Work/AOSP/frameworks/av/camera/ICameraClient.cpp",
+		"/home/apodila/.cache/.fr-AFiy9S/qui.c",
+		"/home/apodila/Work/AOSP/frameworks/av/camera/ICamera.cpp",
+		"/home/apodila/Downloads/android_exynosv4l2_test/Android.mk",
+		"/home/apodila/Downloads/opensensing/AndroidManifest.xml",
+		"/home/apodila/Downloads/opensensing/src/edu/mit/media/funf/FunfManager.java",
+		"/home/apodila/Downloads/opensensing/src/edu/mit/media/funf/probe/Probe.java",
+		"/home/apodila/Work/AOSP/frameworks/av/camera/Camera.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/Camera2Client.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/Camera2Client.h",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/CameraDeviceBase.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/CameraDeviceBase.h",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/CameraHardwareInterface.h",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/Camera3Device.cpp",
+		"/home/apodila/Work/AOSP/frameworks/av/services/camera/libcameraservice/camera3/Camera3Stream.cpp",
+		"/home/apodila/Downloads/jug20010726_2/classfile.h",
+		"/home/apodila/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/apodila/Downloads/opnmax_Dl/OpenMAX/ConnectUploads/r1p0_00bet0/New Folder/omxAC.h",
+		"/home/apodila/Downloads/opnmax_Dl/OpenMAX/ConnectUploads/r1p0_00bet0/New Folder/omxIC.h",
+		"/home/apodila/Downloads/opnmax_Dl/OpenMAX/ConnectUploads/r1p0_00bet0/New Folder/omxIP.h",
+		"/home/apodila/Downloads/opnmax_Dl/OpenMAX/ConnectUploads/r1p0_00bet0/New Folder/omxSP.h",
+		"/home/apodila/Downloads/opnmax_Dl/OpenMAX/ConnectUploads/r1p0_00bet0/New Folder/omxVC.h",
+		"/home/apodila/Downloads/opnmax_Dl/OpenMAX/ConnectUploads/r1p0_00bet0/New Folder/omxtypes.h",
+		"/home/apodila/Downloads/lim-omx-1.1/repo",
+		"/home/apodila/Downloads/lim-omx-1.1/sourceme",
+		"/home/apodila/Downloads/lim-omx-1.1/README",
+		"/home/apodila/Downloads/HandDetector/run.bat",
+		"/home/apodila/Downloads/HandDetector/readme.txt",
+		"/home/apodila/Downloads/HandDetector/Handy.java",
+		"/home/apodila/Downloads/HandDetector/HandPanel.java",
+		"/home/apodila/Downloads/HandDetector/HandDetector.java",
+		"/home/apodila/Downloads/HandDetector/compile.bat",
+		"/home/apodila/Downloads/HandDetector/FingerName.java",
+		"/home/apodila/Downloads/HandDetector/gloveHSV.txt",
+		"/home/apodila/Work/AOSP/.repo/manifest.xml",
+		"/home/apodila/.bashrc",
+		"/home/apodila/.config/sublime-text-3/Packages/sublime-android/Android (Linux).sublime-settings",
+		"/home/apodila/.config/sublime-text-3/Packages/Android/Default (Linux).sublime-keymap",
+		"/home/apodila/.config/sublime-text-3/Packages/User/Android (Linux).sublime-settings",
+		"/home/apodila/.config/sublime-text-3/Packages/Android/Android (Linux).sublime-settings",
+		"/usr/lib/jvm/java-7-oracle/release",
+		"/home/apodila/Downloads/opensensing/res/values/strings.xml",
+		"/home/apodila/.cache/.fr-UEWJXY/HandDetector/readme.txt",
+		"/home/apodila/.cache/.fr-fZpBi8/HandDetector/gloveHSV.txt",
+		"/home/apodila/.cache/.fr-fu8F2O/topcodes/TopCode.java",
+		"/home/apodila/.cache/.fr-WbZLV5/topcodes/Scanner.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/util/NCAppConstants.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/conn/NCCloudServiceHelper.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/conn/NCCloudService.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/services/NCHelperService.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/activities/NCLoginActivity.java",
+		"/home/apodila/Downloads/Service-Activity/readme.txt",
+		"/home/apodila/Downloads/App-Aditya/CldCalLgrMainActivity/readme.txt",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/util/NCAppswitcherUtils.java",
+		"/home/apodila/Desktop/service2.java",
+		"/home/apodila/vSpaceMobile/build.xml",
+		"/home/apodila/Desktop/AndroidManifest.xml",
+		"/home/apodila/vSpaceMobile/AndroidManifest.xml",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/asynctasks/AppStoreAsyncTask.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/activities/NCAppStoreActivity.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/control/NCAppControler.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/activities/NCHomeActivity.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/activities/NCBrowserActivity.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/asynctasks/CopystremAsync.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/asynctasks/DBClearanceAsyncTask.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/asynctasks/DeleteHomeAppsAsyncTask.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/asynctasks/InsertDataToSwitcherAsyncTask.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/asynctasks/DecideFragmentAsyncTask.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/asynctasks/FileBrowserAsyncTask.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/asynctasks/FileBrowserIRightdAsyncTask.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/asynctasks/HomeAsyncTask.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/asynctasks/MultipleAppInstanceAsyncTask.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/asynctasks/LoginAsyncTask.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/activities/NCSplashscreenActivity.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/activities/NCWordActivity.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/dao/NCHomeActivityDao.java",
+		"/home/apodila/vSpaceMobile/src/com/ncomputing/vspacemobile/activities/NCSettingsActivity.java",
+		"/home/apodila/vSpaceMobile/comncomputingvspacemobileactivitiesNCSplashscreenActivity.sublime-project",
+		"/home/apodila/Downloads/gimbalsdk_0.53.1_android/client-sample-mall-mart-embed/ant.properties",
+		"/home/apodila/Work/innominds/Android/adt-bundle-linux-x86-20130522/sdk/tools/ant/uibuild.xml",
+		"/home/apodila/Work/innominds/Android/adt-bundle-linux-x86-20130522/sdk/tools/ant/NOTICE.txt",
+		"/home/apodila/Downloads/AptinaCameraApp-master/build/aptinacameraomap4/ant.properties",
+		"/home/apodila/Downloads/gimbalsdk_0.53.1_android/client-sample-mall-mart-embed/build.xml",
+		"/home/apodila/Downloads/AptinaCameraApp-master/build/aptinacameraomap4/build.xml",
+		"/home/apodila/Downloads/AptinaCameraApp-master/build/aptinacameraomap4/certificate/readme",
+		"/home/apodila/Downloads/gimbalsdk_0.53.1_android/client-sample-mall-mart-embed/project.properties",
+		"/home/apodila/Downloads/gimbalsdk_0.53.1_android/client-sample-mall-mart-embed/src/main/java/com/company/AbstractFailureLoggingCallback.java",
+		"/home/apodila/Downloads/gimbalsdk_0.53.1_android/client-sample-mall-mart-embed/src/main/java/com/company/CompanyServiceBootCompleteReceiver.java"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"CameraAdapter_Factory",
+			"Exynos_v4l2_In",
+			"setupMediaLinksForCamera",
+			"v",
+			",",
+			"DefaultSchedule",
+			"NCCloudService",
+			"extends intentservice",
+			"mServiceHelper",
+			"NCCloudService",
+			"extends intentservice",
+			"extends service",
+			"ACTION",
+			"AppStoreAsyncTask",
+			"appcontroller",
+			"NCAppControler",
+			"Copystrem",
+			"doInBackground",
+			"CopystremAsync",
+			"keyst",
+			"ant.properties",
+			"key",
+			"uses-sdk",
+			"manifest",
+			"\n<",
+			"<?",
+			"application",
+			"</",
+			"application",
+			"java.compilerargs",
+			"ContentActivity",
+			"sublime",
+			"py",
+			"tri"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\n    "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"project": "Os.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"src/main/java/com/company/CompanyService.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 304.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

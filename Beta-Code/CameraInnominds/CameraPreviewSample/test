@@ -1,0 +1,1246 @@
+--------- beginning of /dev/log/main
+D/dalvikvm(28965): GC_CONCURRENT freed 451K, 34% free 5575K/8327K, external 0K/0K, paused 3ms+3ms
+D/dalvikvm(28965): GC_CONCURRENT freed 324K, 31% free 6091K/8775K, external 0K/0K, paused 2ms+2ms
+D/dalvikvm(28965): GC_CONCURRENT freed 315K, 28% free 6928K/9543K, external 0K/0K, paused 107ms+3ms
+D/gp.PicasaPhotoCP(28965): set fsid first time:-442689554
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+--------- beginning of /dev/log/system
+I/ActivityManager( 1359): No longer want com.facebook.katana (pid 28533): hidden #16
+D/Process ( 1359): killProcessQuiet, pid=28533
+D/Process ( 1359): dalvik.system.VMStack.getThreadStackTrace(Native Method)
+D/Process ( 1359): java.lang.Thread.getStackTrace(Thread.java:745)
+D/Process ( 1359): android.os.Process.killProcessQuiet(Process.java:827)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:14288)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateLruProcessInternalLocked(ActivityManagerService.java:1868)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateLruProcessLocked(ActivityManagerService.java:1875)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.realStartServiceLocked(ActivityManagerService.java:10479)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.bringUpServiceLocked(ActivityManagerService.java:10664)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.startServiceLocked(ActivityManagerService.java:10874)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.startService(ActivityManagerService.java:10892)
+D/Process ( 1359): android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:613)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:1642)
+D/Process ( 1359): android.os.Binder.execTransact(Binder.java:320)
+D/Process ( 1359): dalvik.system.NativeStart.run(Native Method)
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/Process ( 1359): killProcessQuiet, pid=28497
+D/Process ( 1359): dalvik.system.VMStack.getThreadStackTrace(Native Method)
+D/Process ( 1359): java.lang.Thread.getStackTrace(Thread.java:745)
+D/Process ( 1359): android.os.Process.killProcessQuiet(Process.java:827)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:14288)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateLruProcessInternalLocked(ActivityManagerService.java:1868)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateLruProcessLocked(ActivityManagerService.java:1875)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.processCurBroadcastLocked(ActivityManagerService.java:12593)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.processNextBroadcast(ActivityManagerService.java:13018)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.finishReceiver(ActivityManagerService.java:12425)
+D/Process ( 1359): android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:346)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:1642)
+D/Process ( 1359): android.os.Binder.execTransact(Binder.java:320)
+D/Process ( 1359): dalvik.system.NativeStart.run(Native Method)
+I/ActivityManager( 1359): No longer want com.google.android.apps.maps:LocationFriendService (pid 28497): hidden #16
+W/ContentService( 1359): binderDied() at ObserverNode name mms-sms
+W/ActivityManager( 1359): Scheduling restart of crashed service com.facebook.katana/.service.MediaUploadService in 5000ms
+D/Socket_Alarm(28965): registerHTCSocketMonitorCallBack
+D/Socket_Alarm(28965): set mSocketMonitor
+D/Socket_Alarm(28965): HTCSocketMonitorImpl::HTCSocketMonitorImpl
+D/gp.PicasaSync(28965): sync account database
+D/Database(28965): dbopen(): path = /data/data/com.google.android.apps.plus/databases/picasa.db, flag = 6, file size = 13312
+D/Database(28965): dbopen(): path = /data/data/com.google.android.apps.plus/databases/es0.db, flag = 6, file size = 954368
+D/Database(28965): dbopen(): path = /data/data/com.google.android.apps.plus/databases/picasa.db, mode: wal, disk free size: 619 M, handle: 0x36d8e0
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/Database(28965): sqlite returned: error code = 0, msg = Recovered 932 frames from WAL file /data/data/com.google.android.apps.plus/databases/es0.db-wal
+E/dalvikvm(28348): Could not find class 'android.app.Notification$Builder', referenced from method azc.a
+W/dalvikvm(28348): VFY: unable to resolve new-instance 394 (Landroid/app/Notification$Builder;) in Lazc;
+D/dalvikvm(28348): VFY: replacing opcode 0x22 at 0x003c
+D/dalvikvm(28348): VFY: dead code 0x003e-00a7 in Lazc;.a (Lazc;Lazs;)V
+D/gp.PicasaSync(28965): accounts in DB=1
+D/gp.PicasaSyncManager(28965): active network: null
+D/gp.PicasaSyncManager(28965): background data: false
+D/gp.PicasaSyncManager(28965): battery info: true
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/Database(28965): dbopen(): path = /data/data/com.google.android.apps.plus/databases/es0.db, mode: wal, disk free size: 619 M, handle: 0x36adc0
+D/Database(28965): dbopen(): path = /data/data/com.google.android.apps.plus/databases/iu.upload.db, flag = 6, file size = 37888
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/ActivityManager( 1359): Start proc com.android.vending for broadcast com.android.vending/com.google.android.finsky.receivers.PackageMonitorReceiver$RegisteredReceiver: pid=28981 uid=10055 gids={3003, 1015}
+I/Database(28965): sqlite returned: error code = 0, msg = Recovered 46 frames from WAL file /data/data/com.google.android.apps.plus/databases/iu.upload.db-wal
+D/Database(28965): dbopen(): path = /data/data/com.google.android.apps.plus/databases/iu.upload.db, mode: wal, disk free size: 619 M, handle: 0x3ce310
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/dalvikvm(28348): Trying to load lib /data/data/com.google.android.gms/lib/libAppDataSearch.so 0x4051e388
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/dalvikvm(28348): Added shared lib /data/data/com.google.android.gms/lib/libAppDataSearch.so 0x4051e388
+D/dalvikvm(28348): No JNI_OnLoad found in /data/data/com.google.android.gms/lib/libAppDataSearch.so 0x4051e388, skipping init
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/Icing   (28348): Init last flush num docs 0 last docstore size 0
+D/Icing   (28348): Docid map file has no data, nothing to scan
+D/Icing   (28348): File /data/data/com.google.android.gms/files/AppDataSearch/main/cur/ds.perdocdata contains 0 records of size 6
+D/Icing   (28348): Init docstore ok num docs 0 bytes 0
+V/Icing   (28348): Lite index crc computed in 0.122ms
+V/Icing   (28348): Lite index init ok in 36.072ms
+V/Icing   (28348): Warming lite-index took 0.000ms
+V/Icing   (28348): Warming lexicon took 0.000ms
+V/Icing   (28348): Warming display mappings took 0.000ms
+D/Icing   (28348): Init index ok num docs 0
+D/Icing   (28348): Init done
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/Icing   (28348): 0 corpora need re-polling
+I/ActivityThread(28981): Pub com.google.android.finsky.QSBSuggestionsProvider2: com.google.android.finsky.providers.QSBSuggestionsProvider
+I/ActivityThread(28981): Pub com.google.android.finsky.AppIconProvider: com.google.android.finsky.providers.AppIconProvider
+I/ActivityThread(28981): Pub com.google.android.finsky.RecentSuggestionsProvider: com.google.android.finsky.providers.RecentSuggestionsProvider
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/dalvikvm(28981): GC_CONCURRENT freed 134K, 44% free 3160K/5639K, external 0K/0K, paused 3ms+13ms
+D/dalvikvm( 7853): GC_EXPLICIT freed 347K, 44% free 3598K/6407K, external 0K/0K, paused 63ms
+I/PackageManager( 1359):  setEnabledSetting(), pkgName=com.android.vending, clsName=com.android.vending.AssetBrowserActivity, state=1, flag=1, pid=28981, uid=10055
+D/Finsky  (28981): [1] FinskyApp.onCreate: Initializing network with DFE https://android.clients.google.com/fdfe/
+D/dalvikvm(28981): DexOpt: couldn't find static field
+W/dalvikvm(28981): VFY: unable to resolve static field 73 (BLOCKED) in Landroid/net/NetworkInfo$DetailedState;
+D/dalvikvm(28981): VFY: replacing opcode 0x62 at 0x0024
+D/dalvikvm(28981): VFY: dead code 0x0026-0029 in Lcom/google/android/finsky/utils/Utils;.isBackgroundDataEnabled (Landroid/content/Context;)Z
+D/Finsky  (28981): [1] DailyHygiene.goMakeHygieneIfDirty: Dirty, need more hygiene.
+D/Socket_Alarm(28981): registerHTCSocketMonitorCallBack
+D/Socket_Alarm(28981): set mSocketMonitor
+D/Socket_Alarm(28981): HTCSocketMonitorImpl::HTCSocketMonitorImpl
+I/dalvikvm(28981): Failed resolving Lcom/google/android/finsky/widget/recommendation/RecommendationsViewFactory; interface 491 'Landroid/widget/RemoteViewsService$RemoteViewsFactory;'
+W/dalvikvm(28981): Link of class 'Lcom/google/android/finsky/widget/recommendation/RecommendationsViewFactory;' failed
+I/dalvikvm(28981): Could not find method com.google.android.finsky.widget.recommendation.RecommendationsViewFactory.notifyDataSetChanged, referenced from method com.google.android.finsky.widget.WidgetUtils$1.onMutationsApplied
+W/dalvikvm(28981): VFY: unable to resolve static method 18193: Lcom/google/android/finsky/widget/recommendation/RecommendationsViewFactory;.notifyDataSetChanged (Landroid/content/Context;[I)V
+D/dalvikvm(28981): VFY: replacing opcode 0x71 at 0x001c
+D/Database(28981): dbopen(): path = /data/data/com.android.vending/databases/library.db, flag = 6, file size = 24576
+D/StatusBarPolicy( 1516): Network Type: 2
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/dalvikvm(28981): DexOpt: couldn't find field Landroid/content/res/Configuration;.smallestScreenWidthDp
+W/dalvikvm(28981): VFY: unable to resolve instance field 47
+D/dalvikvm(28981): VFY: replacing opcode 0x52 at 0x0013
+D/dalvikvm(28981): VFY: dead code 0x0015-0016 in Lcom/google/android/finsky/api/DfeApiContext;.getSmallestScreenWidthDp (Landroid/content/Context;)Ljava/lang/String;
+D/Database(28981): dbopen(): path = /data/data/com.android.vending/databases/localappstate.db, flag = 6, file size = 35840
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/Database(28981): dbopen(): path = /data/data/com.android.vending/databases/library.db, mode: wal, disk free size: 619 M, handle: 0x3678f8
+D/Database(28981): dbopen(): path = /data/data/com.android.vending/databases/localappstate.db, mode: wal, disk free size: 619 M, handle: 0x376678
+D/dalvikvm(28981): GC_CONCURRENT freed 236K, 44% free 3367K/5959K, external 0K/0K, paused 7ms+2ms
+D/Database(28981): dbclose(): path = /data/data/com.android.vending/databases/library.db, handle = 0x3678f8
+D/Database(28981): dbclose(): path = /data/data/com.android.vending/databases/localappstate.db, handle = 0x376678
+I/ActivityManager( 1359): No longer want com.htc.opensense (pid 26123): hidden #16
+D/Process ( 1359): killProcessQuiet, pid=26123
+D/Process ( 1359): dalvik.system.VMStack.getThreadStackTrace(Native Method)
+D/Process ( 1359): java.lang.Thread.getStackTrace(Thread.java:745)
+D/Process ( 1359): android.os.Process.killProcessQuiet(Process.java:827)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:14288)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateLruProcessInternalLocked(ActivityManagerService.java:1868)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateLruProcessLocked(ActivityManagerService.java:1875)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.processCurBroadcastLocked(ActivityManagerService.java:12593)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.processNextBroadcast(ActivityManagerService.java:13018)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.finishReceiver(ActivityManagerService.java:12425)
+D/Process ( 1359): android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:346)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:1642)
+D/Process ( 1359): android.os.Binder.execTransact(Binder.java:320)
+D/Process ( 1359): dalvik.system.NativeStart.run(Native Method)
+D/PackageEnabler(26249): action: android.intent.action.PACKAGE_ADDED, pkg: com.innominds.camerapreviewsample, disabled: false, replacing: true
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/Finsky  (28981): [1] 2.run: Loaded library for account: [VrmJSFDXoJ6SvonR4nGHegpgnbs]
+D/Finsky  (28981): [1] 2.run: Finished loading 1 libraries.
+I/RosieUtility(26101): disable self killer: mEnabled=1
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/RosieUtility(26101): enable self killer: mEnabled=0
+I/RosieUtility(26101): disable self killer: mEnabled=1
+D/HtcWidgetScanner(26101): packageUid - 10020
+D/FxWidgetScanner(26101): create
+D/FxWidgetScanner(26101): onHandleIntent update
+D/FxWidgetScanner(26101): provider com.innominds.camerapreviewsample
+D/FxWidgetScanner(26101): updateFxWidgetList
+I/RosieUtility(26101): disable self killer: mEnabled=0
+D/vicky   (26114): vicky received: android.intent.action.PACKAGE_ADDED
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/ActivityManager( 1359): Start proc com.htc.opensense for broadcast com.htc.opensense/.pluginmanager.RegisterReceiver: pid=29004 uid=10003 gids={3003, 1006, 1015, 2001}
+I/RosieUtility(26101): enable self killer: mEnabled=-1
+D/FxWidgetScanner(26101): delete 0
+D/FxWidgetScanner(26101): ResolveInfo size 0
+I/RosieUtility(26101): enable self killer: mEnabled=0
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/Process ( 1359): killProcessQuiet, pid=26130
+D/Process ( 1359): dalvik.system.VMStack.getThreadStackTrace(Native Method)
+D/Process ( 1359): java.lang.Thread.getStackTrace(Thread.java:745)
+D/Process ( 1359): android.os.Process.killProcessQuiet(Process.java:827)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:14288)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateLruProcessInternalLocked(ActivityManagerService.java:1868)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateLruProcessLocked(ActivityManagerService.java:1875)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.realStartServiceLocked(ActivityManagerService.java:10479)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.bringUpServiceLocked(ActivityManagerService.java:10664)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.startServiceLocked(ActivityManagerService.java:10874)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.startService(ActivityManagerService.java:10892)
+D/Process ( 1359): android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:613)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:1642)
+D/Process ( 1359): android.os.Binder.execTransact(Binder.java:320)
+D/Process ( 1359): dalvik.system.NativeStart.run(Native Method)
+I/ActivityManager( 1359): No longer want com.android.smith (pid 26130): hidden #16
+D/Process ( 1359): killProcessQuiet, pid=28289
+D/Process ( 1359): dalvik.system.VMStack.getThreadStackTrace(Native Method)
+D/Process ( 1359): java.lang.Thread.getStackTrace(Thread.java:745)
+D/Process ( 1359): android.os.Process.killProcessQuiet(Process.java:827)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:14288)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateLruProcessInternalLocked(ActivityManagerService.java:1868)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateLruProcessLocked(ActivityManagerService.java:1875)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.processCurBroadcastLocked(ActivityManagerService.java:12593)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.processNextBroadcast(ActivityManagerService.java:13018)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.finishReceiver(ActivityManagerService.java:12425)
+D/Process ( 1359): android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:346)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:1642)
+D/Process ( 1359): android.os.Binder.execTransact(Binder.java:320)
+D/Process ( 1359): dalvik.system.NativeStart.run(Native Method)
+I/ActivityManager( 1359): No longer want com.htc.bg (pid 28289): hidden #16
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+W/ActivityManager( 1359): Exception when sending broadcast to ComponentInfo{com.android.smith/com.android.smith.PackageReceiver}
+W/ActivityManager( 1359): android.os.DeadObjectException
+W/ActivityManager( 1359): 	at android.os.BinderProxy.transact(Native Method)
+W/ActivityManager( 1359): 	at android.app.ApplicationThreadProxy.scheduleReceiver(ApplicationThreadNative.java:580)
+W/ActivityManager( 1359): 	at com.android.server.am.ActivityManagerService.processCurBroadcastLocked(ActivityManagerService.java:12608)
+W/ActivityManager( 1359): 	at com.android.server.am.ActivityManagerService.processNextBroadcast(ActivityManagerService.java:13018)
+W/ActivityManager( 1359): 	at com.android.server.am.ActivityManagerService.finishReceiver(ActivityManagerService.java:12425)
+W/ActivityManager( 1359): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:346)
+W/ActivityManager( 1359): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:1642)
+W/ActivityManager( 1359): 	at android.os.Binder.execTransact(Binder.java:320)
+W/ActivityManager( 1359): 	at dalvik.system.NativeStart.run(Native Method)
+E/ActivityManager( 1359): Fix ANR:broadcast when App died
+I/RegisterService(29004): android.intent.action.PACKAGE_ADDED package:com.innominds.camerapreviewsample
+I/ActivityManager( 1359): Start proc com.android.smith for broadcast com.android.smith/.PackageReceiver: pid=29012 uid=10140 gids={1007, 1015}
+I/ActivityManager( 1359): Process com.android.smith (pid 26130) has died and restarted (pid 29012).
+I/SM:lib  (29012): JNI_OnLoad(): library version = 5
+I/SM:lib  (29012): JNI_OnLoad(): result = 0x10004
+D/SM:HtcNative(29012): system lib, 4.0.gingerbread.GRJ90-ace-l5-s16
+D/SM:PackageReceiver(29012): package added: package:com.innominds.camerapreviewsample
+W/ActivityManager( 1359): finishReceiver called but state is IDLE
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+W/Finsky  (28981): [1] LibraryUpdateListener.onErrorResponse: Library replication failed: com.google.android.finsky.utils.BgDataDisabledError
+D/StatusBarPolicy( 1516): Network Type: 2
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/GTalkService( 7853): handlePackageInstalled: re-initialize providers
+D/GTalkService( 7853): [RawStanzaProvidersMgr] ##### searchProvidersFromIntent
+D/GTalkService( 7853): [RawStanzaProvidersMgr] no intent receivers found
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/ActivityManager( 1359): Start proc com.google.android.apps.authenticator for broadcast com.google.android.apps.authenticator/.NewAppInstallListener: pid=29022 uid=10091 gids={}
+W/Finsky  (28981): [1] LibraryUpdateListener.onErrorResponse: Library replication failed: com.google.android.finsky.utils.BgDataDisabledError
+D/Database(28981): dbopen(): path = /data/data/com.android.vending/databases/library.db, flag = 6, file size = 24576
+E/dalvikvm(29022): Could not find class 'android.test.RenamingDelegatingContext', referenced from method com.google.android.apps.authenticator.testability.DependencyInjector.resetForIntegrationTesting
+W/dalvikvm(29022): VFY: unable to resolve new-instance 52 (Landroid/test/RenamingDelegatingContext;) in Lcom/google/android/apps/authenticator/testability/DependencyInjector;
+D/dalvikvm(29022): VFY: replacing opcode 0x22 at 0x0017
+D/dalvikvm(29022): VFY: dead code 0x0019-0024 in Lcom/google/android/apps/authenticator/testability/DependencyInjector;.resetForIntegrationTesting (Landroid/content/Context;)V
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/Database(28981): dbopen(): path = /data/data/com.android.vending/databases/library.db, mode: wal, disk free size: 619 M, handle: 0x387990
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/ActivityManager( 1359): Start proc com.facebook.katana for service com.facebook.katana/.service.MediaUploadService: pid=29031 uid=10027 gids={3003, 1006, 1015}
+D/CSUtil  (28939): serverTime = 1375121907773
+D/CSUtil  (28939): serverTime = 118839
+D/CSUtil  (28939): curGMTTime = 36602731
+D/dalvikvm(28965): GC_CONCURRENT freed 1073K, 33% free 7182K/10567K, external 0K/0K, paused 2ms+33ms
+D/dalvikvm(29031): GC_CONCURRENT freed 131K, 43% free 3217K/5639K, external 0K/0K, paused 6ms+5ms
+D/dalvikvm( 1359): GC_CONCURRENT freed 1925K, 31% free 10058K/14535K, external 2224K/2777K, paused 18ms+21ms
+D/dalvikvm(29031): GC_CONCURRENT freed 123K, 40% free 3653K/6087K, external 0K/0K, paused 3ms+10ms
+D/dalvikvm(29031): GC_CONCURRENT freed 101K, 39% free 3989K/6471K, external 0K/0K, paused 4ms+2ms
+I/ActivityManager( 1359): Starting activity: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.innominds.camerapreviewsample/.MainActivity } from pid 1570
+D/Database(28981): dbclose(): path = /data/data/com.android.vending/databases/library.db, handle = 0x387990
+D/WindowManagerImpl( 1359): addView, new view, mViews[1]: com.android.internal.policy.impl.PhoneWindow$DecorView@40c795b0
+D/PhoneWindow( 1570): couldn't save which view has focus because the focused view com.android.internal.policy.impl.PhoneWindow$DecorView@4056f2d8 has no id.
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/EsService(28965): readResults: read results: 2, lastRequestId: 2
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/ActivityManager( 1359): Start proc com.innominds.camerapreviewsample for activity com.innominds.camerapreviewsample/.MainActivity: pid=29040 uid=10020 gids={1006, 1015}
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/SensorService( 1359): enable: get sensor name = BMA150 3-axis Accelerometer
+D/Sensors ( 1359): Enable akm: en = 1
+D/SensorService( 1359): SensorDevice::activate--: handle = 0x0, enabled = 0x1
+D/SensorService( 1359): enable: sensor->activate return value = 0x0
+D/SensorService( 1359): enable: calling mActiveSensors.add(handle, rec) = (0x0, 0x48c528)
+D/SensorService( 1359): enable: mActiveConnections.indexOf(connection) = 0x0
+D/SensorService( 1359): pid=1359, uid=1000
+D/ACRA    (29031): Retrieve SharedPreferences ACRA
+D/AK8975  ( 1260): Compass Start
+D/AK8975  ( 1260): Ignore M_Sensor: (y, p, r) = ( 337,  -16,   12), Status = 2
+V/WindowManager( 1359): Starting animation in AppWindowToken{408c9100 token=HistoryRecord{4088c0f8 com.htc.launcher/.Launcher}} @ 147114946
+V/WindowManager( 1359): Finished animation in AppWindowToken{408c9100 token=HistoryRecord{4088c0f8 com.htc.launcher/.Launcher}} @ 147114946
+D/ACRA    (29031): Set OnSharedPreferenceChangeListener.
+D/ACRA    (29031): ACRA is enabled for com.facebook.katana, intializing...
+V/WindowManager( 1359): Starting animation in AppWindowToken{40e1d618 token=HistoryRecord{40550f20 com.innominds.camerapreviewsample/.MainActivity}} @ 147114946
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+W/dalvikvm( 1570): disableGcForExternalAlloc: false
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/ACRA    (29031): Looking for error files in /data/data/com.facebook.katana/app_acra-reports
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+V/ACRA    (29031): About to start ReportSenderWorker from #checkReportOnApplicationStart
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+V/WindowManager( 1359): Finished animation in AppWindowToken{40e1d618 token=HistoryRecord{40550f20 com.innominds.camerapreviewsample/.MainActivity}} @ 147115269
+D/ATRecorder(29040): com.htc.autotest.dlib.RecordEngine in loader dalvik.system.DexClassLoader@40526c90
+D/ACRA    (29031): Add user comment to null
+D/ACRA    (29031): #checkAndSendReports - start
+D/ACRA    (29031): Looking for error files in /data/data/com.facebook.katana/app_acra-reports
+I/ACRA    (29031): Sending file 1377510637000-149649-approved.stacktrace
+W/dalvikvm(29031): VFY: unable to find class referenced in signature (Ldalvik/system/BaseDexClassLoader;)
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+E/dalvikvm(29031): Could not find class 'dalvik.system.BaseDexClassLoader', referenced from method com.facebook.dex_tricks.SystemClassLoaderAdder.a
+W/dalvikvm(29031): VFY: unable to resolve const-class 8797 (Ldalvik/system/BaseDexClassLoader;) in Lcom/facebook/dex_tricks/SystemClassLoaderAdder;
+D/dalvikvm(29031): VFY: replacing opcode 0x1c at 0x0000
+D/dalvikvm(29031): VFY: dead code 0x0002-0008 in Lcom/facebook/dex_tricks/SystemClassLoaderAdder;.a (Ldalvik/system/BaseDexClassLoader;)Ljava/lang/Object;
+W/dalvikvm(29031): VFY: unable to find class referenced in signature (Ldalvik/system/BaseDexClassLoader;)
+W/dalvikvm(29031): VFY: unable to find class referenced in signature (Ldalvik/system/BaseDexClassLoader;)
+D/WindowManagerImpl(29040): addView, new view, mViews[0]: com.android.internal.policy.impl.PhoneWindow$DecorView@40521580
+W/dalvikvm(29031): VFY: unable to find class referenced in signature (Ldalvik/system/BaseDexClassLoader;)
+I/RegisterService(29004): android.intent.action.PACKAGE_REPLACED package:com.innominds.camerapreviewsample
+D/SM:PackageReceiver(29012): package replaced: package:com.innominds.camerapreviewsample
+D/ACRA    (29031): Connect to https://www.facebook.com/mobile/android_crash_logs/
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/guava-10.0.1-fork.dex.0.jar
+W/InputManagerService( 1359): [unbindCurrentClientLocked] Disable input method client.
+W/InputManagerService( 1359): [startInputLocked] Enable input method client.
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/dalvikvm(29031): GC_CONCURRENT freed 388K, 40% free 4160K/6855K, external 0K/0K, paused 2ms+4ms
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/guava-10.0.1-fork.dex.1.jar
+D/WindowManagerImpl( 1359): finishRemoveViewLocked, mViews[1]: com.android.internal.policy.impl.PhoneWindow$DecorView@40c795b0
+I/ActivityManager( 1359): Displayed com.innominds.camerapreviewsample/.MainActivity: +823ms
+V/ActivityManager( 1359): Checking to restart com.innominds.camerapreviewsample.MainActivity: changed=0x0, handles=0x0
+V/ActivityManager( 1359): oldConfig={ scale=1.0 imsi=404/49 loc=en_IN touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=17 seq=99 skin=default fontsize=3}
+V/ActivityManager( 1359): newConfig={ scale=1.0 imsi=404/49 loc=en_IN touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=17 seq=99 skin=default fontsize=3}
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/jackson-core-2.0.5.dex.0.jar
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/jackson-core-2.0.5.dex.1.jar
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/jackson-core-2.0.5.dex.2.jar
+E/ACRA    (29031): Failed to send crash report for 1377510637000-149649-approved.stacktrace
+E/ACRA    (29031): org.acra.sender.ReportSenderException: Error while sending report to Http Post Form.
+E/ACRA    (29031): 	at org.acra.sender.HttpPostSender.send(HttpPostSender.java:105)
+E/ACRA    (29031): 	at org.acra.ErrorReporter.sendCrashReport(ErrorReporter.java:1122)
+E/ACRA    (29031): 	at org.acra.ErrorReporter.checkAndSendReports(ErrorReporter.java:1281)
+E/ACRA    (29031): 	at org.acra.ErrorReporter$ReportsSenderWorker.run(ErrorReporter.java:158)
+E/ACRA    (29031): Caused by: java.net.UnknownHostException: www.facebook.com
+E/ACRA    (29031): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:503)
+E/ACRA    (29031): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:300)
+E/ACRA    (29031): 	at java.net.InetAddress.getAllByName(InetAddress.java:259)
+E/ACRA    (29031): 	at org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection.<init>(HttpConnection.java:69)
+E/ACRA    (29031): 	at org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection.<init>(HttpConnection.java:48)
+E/ACRA    (29031): 	at org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnection$Address.connect(HttpConnection.java:322)
+E/ACRA    (29031): 	at org.apache.harmony.luni.internal.net.www.protocol.http.HttpConnectionPool.get(HttpConnectionPool.java:89)
+E/ACRA    (29031): 	at org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl.getHttpConnection(HttpURLConnectionImpl.java:285)
+E/ACRA    (29031): 	at org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl.makeConnection(HttpURLConnectionImpl.java:267)
+E/ACRA    (29031): 	at org.apache.harmony.luni.internal.net.www.protocol.https.HttpsURLConnectionImpl$HttpsEngine.makeSslConnection(HttpsURLConnectionImpl.java:406)
+E/ACRA    (29031): 	at org.apache.harmony.luni.internal.net.www.protocol.https.HttpsURLConnectionImpl$HttpsEngine.makeConnection(HttpsURLConnectionImpl.java:387)
+E/ACRA    (29031): 	at org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:205)
+E/ACRA    (29031): 	at org.apache.harmony.luni.internal.net.www.protocol.http.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:614)
+E/ACRA    (29031): 	at org.apache.harmony.luni.internal.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:268)
+E/ACRA    (29031): 	at org.acra.util.HttpRequest.sendPost(HttpRequest.java:49)
+E/ACRA    (29031): 	at org.acra.util.HttpUtils.doPost(HttpUtils.java:67)
+E/ACRA    (29031): 	at org.acra.sender.HttpPostSender.send(HttpPostSender.java:103)
+E/ACRA    (29031): 	... 3 more
+D/ACRA    (29031): #checkAndSendReports - finish
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/jackson-databind-2.0.5.dex.0.jar
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/jackson-databind-2.0.5.dex.1.jar
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/jackson-databind-2.0.5.dex.2.jar
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/jackson-databind-2.0.5.dex.3.jar
+D/dalvikvm(28348): GC_CONCURRENT freed 288K, 45% free 3294K/5895K, external 0K/0K, paused 41ms+4ms
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/PackageManager( 1359):  setEnabledSetting(), pkgName=com.google.android.apps.maps, clsName=com.google.android.maps.driveabout.app.DestinationActivity, state=1, flag=1, pid=28490, uid=10051
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/ActivityManager( 1359): Start proc com.google.android.apps.enterprise.dmagent for broadcast com.google.android.apps.enterprise.dmagent/.AppUpdateReceiver: pid=29070 uid=10117 gids={3003, 1015}
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/jackson-datatype-guava-2.0.4.dex.0.jar
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/jackson-datatype-guava-2.0.4.dex.1.jar
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/jackson-datatype-guava-2.0.4.dex.2.jar
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/Database(12377): dbopen(): path = /data/data/com.google.android.gms/databases/gcore_ulr_UlrLocation.db, flag = 6, file size = 5120
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+V/DMAgent (29070): Came into broadcast receiver AppUpdateReceiver.
+I/DMAgent (29070): DMAgent app has been replaced.
+D/Database(12377): dbopen(): path = /data/data/com.google.android.gms/databases/gcore_ulr_UlrLocation.db, mode: wal, disk free size: 619 M, handle: 0x3658a0
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/json_simple-1.1.dex.0.jar
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/json_simple-1.1.dex.1.jar
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/ActivityManager( 1359): Start proc com.google.android.googlequicksearchbox for broadcast com.google.android.googlequicksearchbox/.SourceUpdateReceiver: pid=29077 uid=10013 gids={3003}
+D/Database(12377): dbclose(): path = /data/data/com.google.android.gms/databases/gcore_ulr_UlrLocation.db, handle = 0x3658a0
+D/Database(12377): dbopen(): path = /data/data/com.google.android.gms/databases/gcore_ulr_ActivityDetection.db, flag = 6, file size = 5120
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/Database(12377): dbopen(): path = /data/data/com.google.android.gms/databases/gcore_ulr_ActivityDetection.db, mode: wal, disk free size: 619 M, handle: 0x3658a0
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/json-path-0.5.4-FB-Custom.dex.0.jar
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/json-path-0.5.4-FB-Custom.dex.1.jar
+I/ActivityThread(29077): Pub com.google.android.googlequicksearchbox.shortcuts: com.google.android.googlequicksearchbox.WebHistoryProvider
+I/ActivityThread(29077): Pub com.google.android.googlequicksearchbox.google: com.google.android.googlequicksearchbox.google.GoogleSuggestionProvider
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/Database(12377): dbclose(): path = /data/data/com.google.android.gms/databases/gcore_ulr_ActivityDetection.db, handle = 0x3658a0
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/diffutils-1.2.1.dex.0.jar
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/diffutils-1.2.1.dex.1.jar
+D/Database(29077): dbopen(): path = /data/data/com.google.android.googlequicksearchbox/databases/qsb-history.db, flag = 6, file size = 6144
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/Database(29077): sqlite returned: error code = 0, msg = Recovered 6 frames from WAL file /data/data/com.google.android.googlequicksearchbox/databases/qsb-history.db-wal
+I/GCoreUlr(12377): Ensuring that reporting is stopped because of reasons: {account#-4#=[InactiveReason{mVersionCode=0, mIdentifier=1, mName='UnsupportedOs'}, InactiveReason{mVersionCode=0, mIdentifier=2, mName='DeferringToGmm'}]}
+D/Database(29077): dbopen(): path = /data/data/com.google.android.googlequicksearchbox/databases/qsb-history.db, mode: wal, disk free size: 619 M, handle: 0x34b2e8
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/GCoreUlr(12377): Unbound from all location providers
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/nine_old_androids.dex.0.jar
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/nine_old_androids.dex.1.jar
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/nine_old_androids.dex.2.jar
+D/DexLibLoader(29031): Deleting old version: /data/data/com.facebook.katana/app_dex/nine_old_androids.dex.3.jar
+V/DexLibLoader(29031): Preparing secondary program dexes.
+D/Digital Clock(26061): Update broadcast received.
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+V/DexLibLoader(29031): Loaded 1 raw lines of metadata.
+V/DexLibLoader(29031): Secondary program dex metadata: secondary-1.dex.jar 60bb0c05a90f77eac50eef50096660d7a9fdec91 com.facebook.device.CpuCapabilities
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/ActivityManager( 1359): Start proc com.google.android.apps.maps:LocationFriendService for broadcast com.google.android.apps.maps/com.google.googlenav.friend.reporting.LocationReportingIntentReceiver: pid=29100 uid=10051 gids={3003, 1015}
+D/AppWidgetHostView( 1570): updateAppWidget mInfo = AppWidgetProviderInfo(provider=ComponentInfo{com.maize.digitalClock/com.maize.digitalClock.ClockWidget})
+V/DexLibLoader(29031): Preparing to extract secondary-1.dex.jar to /data/data/com.facebook.katana/app_secondary_program_dex/program-60bb0c05a90f77eac50eef50096660d7a9fdec91.dex.jar
+V/DexLibLoader(29031): Dex already copied
+V/DexLibLoader(29031): Creating class loader
+V/DexLibLoader(29031): Finished creating class loader
+V/DexLibLoader(29031): Veryfing classes from secondary dexes.
+D/dalvikvm(28981): GC_CONCURRENT freed 144K, 41% free 3660K/6151K, external 0K/0K, paused 2ms+171ms
+D/dalvikvm(29031): Trying to load lib /data/data/com.facebook.katana/lib/libfb_cpucapabilities.so 0x405275e8
+D/dalvikvm(29031): Added shared lib /data/data/com.facebook.katana/lib/libfb_cpucapabilities.so 0x405275e8
+D/dalvikvm(29031): No JNI_OnLoad found in /data/data/com.facebook.katana/lib/libfb_cpucapabilities.so 0x405275e8, skipping init
+D/dalvikvm(29100): GC_CONCURRENT freed 141K, 44% free 3207K/5639K, external 0K/0K, paused 6ms+2ms
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+V/DexLibLoader(29031): Dex already copied
+V/DexLibLoader(29031): Creating class loader
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/dalvikvm(29031): Total arena pages for JIT: 11
+V/DexLibLoader(29031): Finished creating class loader
+D/DexLibLoader(29031): DexLibLoader.ensureDex took 167 ms
+D/dalvikvm(29031): Trying to load lib /data/data/com.facebook.katana/lib/libfb_dalvik-internals.so 0x405275e8
+D/dalvikvm(29031): Added shared lib /data/data/com.facebook.katana/lib/libfb_dalvik-internals.so 0x405275e8
+D/Database(29100): dbopen(): path = /data/data/com.google.android.apps.maps/databases/webview.db, flag = 6, file size = 15360
+D/dalvikvm(29031): GC_CONCURRENT freed 396K, 40% free 4223K/6983K, external 0K/0K, paused 2ms+3ms
+I/dalvik-internals(29031): Successfully looked up JNI_GetCreatedJavaVMs
+I/dalvik-internals(29031): Successfully looked up gDvm
+E/dalvik-internals(29031): Failed to look up ladDumpProfiles
+E/dalvik-internals(29031): Failed to look up ladResetProfiles
+E/dalvik-internals(29031): Failed to look up ladPrintHeaderInfo
+I/dalvik-internals(29031): gDvm has value 0x800acdc8.  Searching for vmList (initial offset in [704,1480]).
+I/dalvik-internals(29031): Beginning search.  Actual offset in [704,1444].
+I/dalvik-internals(29031): Found vmList at offset 748.
+D/dalvik-internals(29031): Evaluating LinearAllocHdr candidate at 0x12608.
+I/dalvik-internals(29031): Found LinearAllocHdr at expected offset from vmList.
+D/Database(28348): dbopen(): path = /data/data/com.google.android.gms/databases/games_84a4649c.db, flag = 6, file size = 50176
+I/Database(29100): sqlite returned: error code = 0, msg = Recovered 15 frames from WAL file /data/data/com.google.android.apps.maps/databases/webview.db-wal
+D/Database(29100): dbopen(): path = /data/data/com.google.android.apps.maps/databases/webview.db, mode: wal, disk free size: 619 M, handle: 0x34ef70
+I/webviewdatabase(29100): Upgrading database from version 10 to 11, which will destroy old data
+D/View    (29040): onTouchEvent: viewFlags: 0x18004001
+D/View    (29040): onTouchEvent: isFocusable: true, isFocusableInTouchMode: false, isFocused: false; focusTaken: false
+D/Database(28348): dbopen(): path = /data/data/com.google.android.gms/databases/games_84a4649c.db, mode: delete, disk free size: 619 M, handle: 0x3a8e68
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/ActivityManager( 1359): Starting activity: Intent { cmp=com.innominds.camerapreviewsample/.CameraPreviewSampleActivity } from pid 29040
+D/ATRecorder(29040): com.htc.autotest.dlib.RecordEngine in loader dalvik.system.DexClassLoader@40530468
+D/dalvikvm(28981): GC_CONCURRENT freed 124K, 39% free 3991K/6471K, external 0K/0K, paused 4ms+3ms
+D/Database(29100): dbopen(): path = /data/data/com.google.android.apps.maps/databases/webviewCache.db, flag = 6, file size = 6144
+I/Database(29100): sqlite returned: error code = 0, msg = Recovered 6 frames from WAL file /data/data/com.google.android.apps.maps/databases/webviewCache.db-wal
+D/Database(29100): dbopen(): path = /data/data/com.google.android.apps.maps/databases/webviewCache.db, mode: wal, disk free size: 619 M, handle: 0x361170
+D/CameraService( 1253): CameraService::connect E (pid 29040, id 0), max 1
+I/CameraService( 1253): cameraId:0
+I/CameraService( 1253): Main Camera Only
+I/CameraService( 1253): 2D mode only
+I/QualcommCameraHardware( 1253): openCameraHardware: call createInstance cameraId 0
+D/QualcommCameraHardware( 1253): createInstance: E
+D/Database(28348): dbopen(): sqlite3_exec to set journal_mode to WAL for /data/data/com.google.android.gms/databases/games_84a4649c.db
+I/ActivityThread(29031): Pub com.facebook.katana.provider.AttributionIdProvider: com.facebook.katana.provider.AttributionIdProvider
+D/CameraPP( 1253): CameraPP::CameraPP()
+D/SDO_PP  ( 1253): SDO_PP::SDO_PP()
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/OlaEngine( 1253): [Ola_Engine_Create:79] engine build info [ name ] : htc
+I/OlaEngine( 1253): [Ola_Engine_Create:83] engine build info [ date ] : 2011-07-28 13:07:31
+I/OlaEngine( 1253): [Ola_Engine_Create:87] engine build info [ version ] : __bulid_revision_223__ 
+D/CameraFace_OLA( 1253): create OlaEngine
+I/FD      ( 1253): [Ola_FaceDetector_Create:135] create num : 1
+D/CameraFace_OLA( 1253): create Ola FD
+V/Olaworks( 1253): [Ola_BeautyShotEngine_Create] prr(0x000f5438)
+D/CameraFace_OLA( 1253): create Ola BS
+D/CameraFace_OLA( 1253): create Ola SD
+D/CameraFace_OLA( 1253): create Ola BD
+D/QualcommCameraHardware( 1253):  Storing the current target type as 2 
+D/QualcommCameraHardware( 1253): constructor EX
+D/QualcommCameraHardware( 1253): startCamera E
+W/dalvikvm(29031): VFY: unable to find class referenced in signature (Landroid/os/CancellationSignal;)
+I/dalvikvm(29031): Could not find method android.content.ContentProvider.onTrimMemory, referenced from method com.facebook.content.AbstractContentProvider.onTrimMemory
+W/dalvikvm(29031): VFY: unable to resolve virtual method 234: Landroid/content/ContentProvider;.onTrimMemory (I)V
+D/dalvikvm(29031): VFY: replacing opcode 0x6f at 0x000c
+D/dalvikvm(29031): VFY: dead code 0x000f-0012 in Lcom/facebook/content/AbstractContentProvider;.onTrimMemory (I)V
+W/dalvikvm(29031): VFY: unable to find class referenced in signature (Landroid/os/CancellationSignal;)
+W/dalvikvm(29031): VFY: unable to find class referenced in signature (Landroid/os/CancellationSignal;)
+I/ActivityThread(29031): Pub com.facebook.katana.provider.DetectedPhotoProvider: com.facebook.katana.provider.DetectedPhotoProvider
+I/ActivityThread(29031): Pub com.facebook.katana.provider.OrcaSharedPrefsProvider: com.facebook.katana.provider.orca.OrcaSharedPreferencesContentProvider
+I/ActivityThread(29031): Pub com.facebook.katana.provider.UserStatusesProvider: com.facebook.katana.provider.UserStatusesProvider
+I/ActivityThread(29031): Pub com.facebook.katana.provider.LocalPhotoTagProvider: com.facebook.katana.provider.LocalPhotoTagProvider
+I/ActivityThread(29031): Pub com.facebook.katana.provider.LocalFaceboxProvider: com.facebook.katana.provider.LocalFaceboxProvider
+D/QualcommCameraHardware( 1253): loading liboemcamera at 0xb000ee28
+I/QualcommCameraHardware( 1253): Set main cam and main cam only
+I/mm-camera( 1253): set sensor selection :0
+I/ActivityThread(29031): Pub com.facebook.katana.provider.BookmarkProvider: com.facebook.bookmark.provider.BookmarkProvider
+I/ActivityThread(29031): Pub com.facebook.katana.provider.MessagesForegroundProvider: com.facebook.katana.provider.orca.MessengerForegroundProvider
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/ActivityThread(29031): Pub com.facebook.katana.provider.LocalCropInfoProvider: com.facebook.katana.provider.LocalCropInfoProvider
+I/ActivityThread(29031): Pub com.facebook.katana.provider.PagesProvider: com.facebook.katana.provider.PagesProvider
+I/ActivityThread(29031): Pub com.facebook.katana.provider.PushNotificationsProvider: com.facebook.katana.provider.PushNotificationsProvider
+I/ActivityThread(29031): Pub com.facebook.katana.provider.PhotosProvider: com.facebook.katana.provider.PhotosProvider
+I/ActivityThread(29031): Pub com.facebook.katana.provider.ConnectionsProvider: com.facebook.katana.provider.ConnectionsProvider
+D/dalvikvm(29100): GC_CONCURRENT freed 231K, 43% free 3493K/6023K, external 0K/0K, paused 3ms+3ms
+I/ActivityThread(29031): Pub com.facebook.katana.provider.LoggingProvider: com.facebook.katana.provider.LoggingProvider
+I/ActivityThread(29031): Pub com.facebook.katana.provider.KeyValueProvider: com.facebook.katana.provider.KeyValueProvider
+I/ActivityThread(29031): Pub com.facebook.katana.provider.FbContactsProvider: com.facebook.contacts.data.FbContactsContentProvider
+I/ActivityThread(29031): Pub com.facebook.katana.provider.CacheProvider: com.facebook.katana.provider.CacheProvider
+I/ActivityThread(29031): Pub com.facebook.katana.provider.VaultImageProvider: com.facebook.katana.provider.VaultImageProvider
+I/ActivityThread(29031): Pub com.facebook.katana.provider.ObservedContactsProvider: com.facebook.katana.provider.ObservedContactsProvider
+I/ActivityThread(29031): Pub com.facebook.katana.provider.UserValuesProvider: com.facebook.katana.provider.UserValuesProvider
+I/ActivityThread(29031): Pub com.facebook.katana.provider.MobileEventLogProvider: com.facebook.katana.provider.MobileEventLogProvider
+I/QualcommCameraHardware( 1253): Open Device node : /dev/msm_camera/control0
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/mm-camera( 1253): Open Device node : /dev/msm_camera/config0 
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/mm-camera( 1253): [AWB Calibration] from kernel: fuse_id: 0x0, 0x0, 0x4, 0x62705
+I/mm-camera( 1253): sensor_load_chromatix: Sensor model no: s5k3h1gx
+D/mm-camera( 1253): sensor_load_chromatix: Sensor name: s5k3h1gx cnt=2
+I/mm-camera( 1253): sensor_load_chromatix: chromatixType=0
+D/mm-camera( 1253): sensor_load_chromatix:1713:chromatix library Name = libchromatix_s5k3h1gx_preview.so
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/mm-camera( 1253): load_chromatix() : PRODUCT_ACE in preview
+D/mm-camera( 1253): sensor_load_chromatix:1738: dlclose(libchromatix_handle) refcount 0
+I/mm-camera-s5k3h1gx_u( 1253): Inside s5k3h1gx_process_start 
+I/mm-camera( 1253): [LSC Calibration]Sensor_set_mesh
+I/mm-camera( 1253): [LSC Calibration] : call awb_get_fuseid
+I/mm-camera( 1253): Read /data/lsc_cal fail
+I/mm-camera( 1253): Read from file OK: /data/lsc_cal or /sys/android_camera_awb_cal/awb_cal
+I/mm-camera( 1253): [LSC Calibration]: lsc_checksum=64424565, lsc_verify=c1b
+I/mm-camera( 1253): [LSC Calibration]: fuseid_1=0,fuseid_2=0,fuseid_3=4,fuseid_4=62705, sfuse.fuse_id_word1=0,sfuse.fuse_id_word2=0,sfuse.fuse_id_word3=4,sfuse.fuse_id_word4=62705
+I/mm-camera( 1253): LSC_Calibration: 	addr=a77512bc, & addr=a77512bc
+I/mm-camera( 1253): LSC_Calibration: 	addr=a7752090, & addr=a7752090
+I/mm-camera( 1253): LSC_Calibration: 	addr=a7752e64, & addr=a7752e64
+I/mm-camera( 1253): LSC_Calibration: 	addr=a7753c38, & addr=a7753c38
+I/mm-camera( 1253): LSC_Calibration: 	addr=a7754a0c, & addr=a7754a0c
+I/mm-camera-s5k3h1gx_u( 1253): s5k3h1gx_process_start: [LSC Calibration] LSC is valid and set NEW mesh value
+I/mm-camera( 1253): [AWB Calibration] fuse_id : 0x0, 0x0, 0x4, 0x62705
+I/mm-camera( 1253): [AWB Calibration] fail to read /data/awb_cal, try another file
+I/mm-camera( 1253): [AWB Calibration] read from file OK: /sys/android_camera_awb_cal/awb_cal
+I/mm-camera( 1253): [AWB Calibration] nandflash data: 0xc1b, 0x304, 0x29e, 0x0, 0x0, 0x4, 0x62705, 0x96b98b06
+I/mm-camera( 1253): [AWB Calibration] check sum=96b98b06, OK
+I/mm-camera( 1253): [AWB Calibration] valid bit and fuseID pass, use new white points
+I/mm-camera( 1253): [AWB Calibration] use light version: v3
+I/mm-camera-s5k3h1gx_u( 1253): s5k3h1gx_register: table = 0xa774ca88
+I/mm-camera-s5k3h1gx_u( 1253): get snapshot size pointer:0xa772758d
+D/mm-camera( 1253): sensor_led_ctrl_init: camfd = 26
+D/mm-camera( 1253): af_init_process_exhaustive_search sensor->af_exhaust_downhill_allowance 2, sensor->af_exhaust_fv_drop_allowance 0.800000
+I/QualcommCameraHardware( 1253): startCamera: camsensor name s5k3h1gx, flash 1
+I/mm-camera( 1253): sctrl:0xa774beb8
+I/mm-camera( 1253): sctrl->fn_table:0xa77280c5
+I/mm-camera( 1253): sctrl->fn_table.get_snapshot_sizes:0xa772758d
+I/mm-camera-s5k3h1gx_u( 1253): get table
+D/QualcommCameraHardware( 1253): startCamera X
+D/QualcommCameraHardware( 1253): loading libposteffect at 0xb000f4b8
+D/QualcommCameraHardware( 1253): static android::sp<android::CameraHardwareInterface> android::QualcommCameraHardware::createInstance(int): start GPU manager (0).
+D/QualcommCameraHardware( 1253): initDefaultParameters E
+D/QualcommCameraHardware( 1253): product 9
+D/QualcommCameraHardware( 1253): init thumbnail width: 640, height: 480
+D/mm-camera( 1253): dimension.cam_mode = 0
+D/mm-camera( 1253): vfe_util_get_sensor_info: pre_mode=-1 ctrl->mode=0
+D/GPUPostEffect( 1253): void* mlabs::GPUPostEffect::threadMain() E.
+I/GEManager( 1253): [GEManager] enter
+D/GEManager( 1253): [GEManager] m_eglDisplay successfully
+D/dalvikvm(29031): GC_CONCURRENT freed 322K, 38% free 4344K/6983K, external 0K/0K, paused 3ms+6ms
+D/GEManager( 1253): [GEManager] eglInitialize successfully
+D/GEManager( 1253): [GEManager] eglChooseConfig successfully
+D/GEManager( 1253): [GEManager] eglCreateContext successfully
+D/GEManager( 1253): [GEManager] eglCreatePbufferSurface successfully
+D/GEManager( 1253): [GEManager] eglMakeCurrent successfully
+I/GEManager( 1253): [GEManager] leave
+I/ActivityManager( 1359): No longer want com.htc.cs (pid 26114): hidden #16
+D/Process ( 1359): killProcessQuiet, pid=26114
+D/Process ( 1359): dalvik.system.VMStack.getThreadStackTrace(Native Method)
+D/Process ( 1359): java.lang.Thread.getStackTrace(Thread.java:745)
+D/Process ( 1359): android.os.Process.killProcessQuiet(Process.java:827)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:14288)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.updateOomAdjLocked(ActivityManagerService.java:14171)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.serviceDoneExecutingLocked(ActivityManagerService.java:11507)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.serviceDoneExecuting(ActivityManagerService.java:11477)
+D/Process ( 1359): android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:709)
+D/Process ( 1359): com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:1642)
+D/Process ( 1359): android.os.Binder.execTransact(Binder.java:320)
+D/Process ( 1359): dalvik.system.NativeStart.run(Native Method)
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+V/LocationManagerService( 1359): requestLocationUpdatesLocked: updateProvidersLocked
+D/LocationManagerService( 1359): [updateProvidersLocked]
+D/Socket_Alarm(29100): registerHTCSocketMonitorCallBack
+D/Socket_Alarm(29100): set mSocketMonitor
+D/Socket_Alarm(29100): HTCSocketMonitorImpl::HTCSocketMonitorImpl
+D/WifiService( 1359): acquireWifiLockLocked: WifiLock{NetworkLocationLocator type=2 binder=android.os.BinderProxy@40db50d0} Mode: 2
+D/WifiService( 1359): disable wifi due to updateWifiState
+D/WifiService( 1359): setWifiEnabledBlocking  wifiState = eventualWifiState = 1, return true
+D/mm-camera( 1253): aec_init_settings_reload_sensor  input->aec_parms.antibanding=0
+I/QualcommCameraHardware( 1253): setParameters: E params = 0x1c5e8c
+I/QualcommCameraHardware( 1253): request capture mode (null)
+D/QualcommCameraHardware( 1253): requested preview size 640 x 480
+D/QualcommCameraHardware( 1253): requested picture size 3264 x 2448
+D/mm-camera( 1253): In config_proc_CAMERA_SET_PARM_LED_MODE: 0
+D/mm-camera( 1253): set_led_mode = 0, led_ctrl_p->led_mode = 0
+E/mm-camera( 1253): Output2 is configure larger than camsensor FOV.
+D/QualcommCameraHardware( 1253): not defined touch-focus yet, or AP without touch-focus function
+D/QualcommCameraHardware( 1253): setSceneMode E
+D/QualcommCameraHardware( 1253): setSceneMode str=auto
+I/QualcommCameraHardware( 1253): requested Fps Range min: 1 x max: 200000
+I/QualcommCameraHardware( 1253): Setting Brightness is 3
+I/QualcommCameraHardware( 1253): Setting iso 0
+D/QualcommCameraHardware( 1253): virtual android::status_t android::QualcommCameraHardware::setParameters(const android::CameraParameters&), final_rc=0
+D/        ( 1253): [GECameraParameters::getGPUEffect] enter
+D/        ( 1253): [GECameraParameters::getGPUEffect] leave. no key GPU-effect
+D/        ( 1253): [GECameraParameters::getGPUEffectParam] leave. no key GE-param0
+D/        ( 1253): [GECameraParameters::getGPUEffectParam] leave. no key GE-param1
+I/GPUPostEffect( 1253): int mlabs::GPUPostEffect::setParameters(mlabs::GPUPostEffect::GPUTask*): old effect = 0, new effect = -1.
+D/GPUPostEffect( 1253): setParameters: isGEInit == false: no call to ChooseEffect.
+I/QualcommCameraHardware( 1253): setParameters: X, gHALDebugFrame 12
+D/CameraFace( 1253): face_config: image_format 0 hcb!=NULL
+D/QualcommCameraHardware( 1253): initDefaultParameters X
+D/QualcommCameraHardware( 1253): createInstance: X created hardware=0x1c5e88
+D/CameraService( 1253): Client::Client E (pid 29040)
+D/CameraService( 1253): getOrientation: degrees 0
+D/CameraService( 1253): Client::Client X (pid 29040)
+D/CameraService( 1253): CameraService::connect X
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/WindowManagerImpl(29040): addView, new view, mViews[1]: com.android.internal.policy.impl.PhoneWindow$DecorView@4052e150
+D/WifiService( 1359): releaseWifiLockLocked: WifiLock{NetworkLocationLocator type=2 binder=android.os.BinderProxy@40db50d0} Mode: 2
+D/WifiService( 1359): disable wifi due to updateWifiState
+D/WifiService( 1359): setWifiEnabledBlocking  wifiState = eventualWifiState = 1, return true
+D/CameraService( 1253): setPreviewDisplay(0x1da820) (pid 29040)
+D/CameraService( 1253): setOverlay w 640 h 480 mOverlayW 0 mOverlayH 0
+W/QualcommCameraHardware( 1253):  Overlay object NULL. returning 
+D/CameraService( 1253): recreate createOverlay
+D/Overlay ( 1359): createOverlay w=640 h=480 z=0 format 0x100021 
+D/OverlayLIB( 1359): ovmode 2DPANEL
+D/Overlay ( 1359): No S3D displays found, treat content as 2D
+D/Overlay ( 1359): createOverlay w=640 h=480 z=0 format 3D 0x0 ovmode 0 currentOV 0 fbnum 0
+D/OverlayLIB( 1359): startcontrolchannel: w:640 h:480 fbnum:0 format 33 colorforamt 33 format3D:0x0 zorder: 1 norot no ignoreFB yes
+D/OverlayLIB( 1359): setoverlayInfo(910) w 640 h 480 format 2 flags 0x800000 zorder 1
+D/OverlayLIB( 1359): same Rotator parameter, skip it
+D/Overlay ( 1359): setPostion: x= 0, y=75, w= 480, h = 725 refresh 0
+D/Overlay ( 1359): setPostion: x= 0, y=75, w= 480, h = 725 refresh 0
+D/SurfaceFlinger( 1359): call overlay setpos one more time mupdatePos 5
+D/CameraService( 1253): [D:camera]OVERLAY CREATED....,mOrientation=0
+D/Overlay ( 1253): In overlay_data_initialize: format3D = 0x0
+D/OverlayLIB( 1253): In OVLib: startDatachannel: fbnum = 0 size = 460800 mOvDataid 5
+I/OverlayLIB( 1253): mFD=52
+D/OverlayLIB( 1253): datachannel:openDevices: mPmemFD:0x37 mPmemAddr:0x0x41aa3000
+D/CameraService( 1253): stopPreview (pid 29040)
+D/QualcommCameraHardware( 1253): stopPreview: E
+D/QualcommCameraHardware( 1253): stopPreviewInternal E: 0
+D/QualcommCameraHardware( 1253): stopPreviewInternal X: 0
+D/QualcommCameraHardware( 1253): stopPreview: X
+V/CameraPreviewSample(29040): Listing all supported preview sizes
+V/CameraPreviewSample(29040):   w: 1280, h: 720
+V/CameraPreviewSample(29040):   w: 800, h: 480
+V/CameraPreviewSample(29040):   w: 640, h: 480
+V/CameraPreviewSample(29040):   w: 640, h: 384
+V/CameraPreviewSample(29040): Listing all supported picture sizes
+V/CameraPreviewSample(29040):   w: 3264, h: 2448
+V/CameraPreviewSample(29040):   w: 3264, h: 1952
+V/CameraPreviewSample(29040):   w: 2592, h: 1952
+V/CameraPreviewSample(29040):   w: 2592, h: 1936
+V/CameraPreviewSample(29040):   w: 2592, h: 1728
+V/CameraPreviewSample(29040):   w: 2592, h: 1552
+V/CameraPreviewSample(29040):   w: 2048, h: 1536
+V/CameraPreviewSample(29040):   w: 2048, h: 1360
+V/CameraPreviewSample(29040):   w: 2048, h: 1216
+V/CameraPreviewSample(29040):   w: 1600, h: 1200
+V/CameraPreviewSample(29040):   w: 1584, h: 1056
+V/CameraPreviewSample(29040):   w: 1280, h: 960
+V/CameraPreviewSample(29040):   w: 1280, h: 848
+V/CameraPreviewSample(29040):   w: 1280, h: 768
+V/CameraPreviewSample(29040):   w: 1024, h: 768
+V/CameraPreviewSample(29040):   w: 640, h: 480
+V/CameraPreviewSample(29040):   w: 640, h: 416
+V/CameraPreviewSample(29040):   w: 640, h: 384
+V/CameraPreviewSample(29040):   w: 512, h: 384
+V/CameraPreviewSample(29040):   w: 400, h: 400
+V/CameraPreviewSample(29040):   w: 272, h: 272
+V/CameraPreviewSample(29040): Same picture size not found.
+V/CameraPreviewSample(29040): Desired Preview Size - w: 480, h: 725
+V/CameraPreviewSample(29040): Preview Layout Size - w: 435, h: 725
+V/CameraPreviewSample(29040): Scale factor: 0.90625
+D/OverlayLIB( 1359): same Rotator parameter, skip it
+D/Overlay ( 1359): setPostion: x= 0, y=75, w= 480, h = 725 refresh 0
+V/WindowManager( 1359): Starting animation in AppWindowToken{40e1d618 token=HistoryRecord{40550f20 com.innominds.camerapreviewsample/.MainActivity}} @ 147119048
+D/OverlayLIB( 1359): same Rotator parameter, skip it
+D/Overlay ( 1359): setPostion: x= 158, y=75, w= 480, h = 725 refresh 0
+V/WindowManager( 1359): Starting animation in AppWindowToken{4057dcc0 token=HistoryRecord{40a38690 com.innominds.camerapreviewsample/.CameraPreviewSampleActivity}} @ 147119048
+D/OverlayLIB( 1359): same Rotator parameter, skip it
+D/Overlay ( 1359): setPostion: x= 110, y=75, w= 480, h = 725 refresh 0
+D/StatusBarPolicy( 1516): Network Type: 2
+D/OverlayLIB( 1359): same Rotator parameter, skip it
+D/Overlay ( 1359): setPostion: x= 83, y=75, w= 480, h = 725 refresh 0
+D/OverlayLIB( 1359): same Rotator parameter, skip it
+D/Overlay ( 1359): setPostion: x= 68, y=75, w= 435, h = 725 refresh 0
+D/CameraService( 1253): stopPreview (pid 29040)
+D/QualcommCameraHardware( 1253): stopPreview: E
+D/QualcommCameraHardware( 1253): stopPreviewInternal E: 0
+D/QualcommCameraHardware( 1253): stopPreviewInternal X: 0
+D/QualcommCameraHardware( 1253): stopPreview: X
+D/OverlayLIB( 1359): same Rotator parameter, skip it
+D/Overlay ( 1359): setPostion: x= 48, y=75, w= 435, h = 725 refresh 0
+D/OverlayLIB( 1359): same Rotator parameter, skip it
+D/Overlay ( 1359): setPostion: x= 30, y=75, w= 435, h = 725 refresh 0
+V/CameraPreviewSample(29040): angle: 90
+D/CameraService( 1253): sendCommand (pid 29040)
+D/CameraService( 1253): getOrientation: degrees 90
+V/CameraPreviewSample(29040): Preview Actual Size - w: 800, h: 480
+D/OverlayLIB( 1359): same Rotator parameter, skip it
+D/Overlay ( 1359): setPostion: x= 17, y=75, w= 435, h = 725 refresh 0
+V/CameraPreviewSample(29040): Picture Actual Size - w: 1280, h: 768
+D/CameraPreviewSample(29040): Preview Format  :: 17
+D/CameraPreviewSample(29040): GetBitsPerPixel :: 12
+D/OverlayLIB( 1359): same Rotator parameter, skip it
+D/Overlay ( 1359): setPostion: x= 7, y=75, w= 435, h = 725 refresh 0
+I/CameraService( 1253): Unknow capture mode!!
+I/QualcommCameraHardware( 1253): setParameters: E params = 0x4090ecf4
+I/QualcommCameraHardware( 1253): request capture mode (null)
+D/QualcommCameraHardware( 1253): requested preview size 800 x 480
+D/QualcommCameraHardware( 1253): requested picture size 1280 x 768
+D/OverlayLIB( 1359): same Rotator parameter, skip it
+D/Overlay ( 1359): setPostion: x= 2, y=75, w= 435, h = 725 refresh 0
+D/mm-camera( 1253): In config_proc_CAMERA_SET_PARM_LED_MODE: 0
+D/mm-camera( 1253): set_led_mode = 0, led_ctrl_p->led_mode = 0
+E/mm-camera( 1253): Output2 is configure larger than camsensor FOV.
+D/QualcommCameraHardware( 1253): not defined touch-focus yet, or AP without touch-focus function
+D/QualcommCameraHardware( 1253): setSceneMode E
+D/QualcommCameraHardware( 1253): setSceneMode str=auto
+I/QualcommCameraHardware( 1253): requested Fps Range min: 1 x max: 200000
+D/QualcommCameraHardware( 1253): virtual android::status_t android::QualcommCameraHardware::setParameters(const android::CameraParameters&), final_rc=0
+D/        ( 1253): [GECameraParameters::getGPUEffect] enter
+D/        ( 1253): [GECameraParameters::getGPUEffect] leave. no key GPU-effect
+D/        ( 1253): [GECameraParameters::getGPUEffectParam] leave. no key GE-param0
+D/        ( 1253): [GECameraParameters::getGPUEffectParam] leave. no key GE-param1
+I/GPUPostEffect( 1253): int mlabs::GPUPostEffect::setParameters(mlabs::GPUPostEffect::GPUTask*): old effect = -1, new effect = -1.
+D/GPUPostEffect( 1253): setParameters: isGEInit == false: no call to ChooseEffect.
+I/QualcommCameraHardware( 1253): setParameters: X, gHALDebugFrame 12
+D/CameraService( 1253): startPreview (pid 29040)
+D/CameraService( 1253): startCameraMode(0)
+D/CameraService( 1253): startPreviewMode
+D/CameraService( 1253):  OMADM DCMO CAMERA flag = 1
+D/QualcommCameraHardware( 1253): startPreview E
+D/QualcommCameraHardware( 1253): initPreview E: preview size=800x480
+D/QualcommCameraHardware( 1253): initPreview E: preview size=800x480 videosize = 800 x 480
+D/QualcommCameraHardware( 1253): initPreview: mDimension.cam_mode = 0
+D/QualcommCameraHardware( 1253): initPreview : preview size=800x480 videosize = 800 x 480
+D/QualcommCameraHardware( 1253): initPreview: mFrameThreadWaitLock.lock()
+D/QualcommCameraHardware( 1253): initPreview: mFrameThreadWaitLock.unlock()
+I/QualcommCameraHardware( 1253): constructing MemPool preview backed by pmem pool /dev/pmem_adsp: 4 frames @ 576000 bytes, buffer size 576000
+I/QualcommCameraHardware( 1253): pmem pool /dev/pmem_adsp ioctl(fd = 58, PMEM_GET_SIZE) is 2310144
+D/QualcommCameraHardware( 1253): mBufferSize=576000, mAlignedBufferSize=577536
+D/QualcommCameraHardware( 1253): num_buffers = 4
+I/QualcommCameraHardware( 1253): register_buf: camfd = 56, reg = 0 buffer = 0x41b84000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 56, reg = 0 buffer = 0x41c11000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 56, reg = 0 buffer = 0x41c9e000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 56, reg = 0 buffer = 0x41d2b000
+I/QualcommCameraHardware( 1253): PmemPool: (preview) X 
+I/QualcommCameraHardware( 1253): constructing MemPool record backed by pmem pool /dev/pmem_adsp: 9 frames @ 576000 bytes, buffer size 576000
+I/QualcommCameraHardware( 1253): pmem pool /dev/pmem_adsp ioctl(fd = 61, PMEM_GET_SIZE) is 5197824
+D/QualcommCameraHardware( 1253): mBufferSize=576000, mAlignedBufferSize=577536
+D/QualcommCameraHardware( 1253): num_buffers = 9
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 0 buffer = 0x41db8000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 0 buffer = 0x41e45000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 0 buffer = 0x41ed2000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 0 buffer = 0x41f5f000
+D/OverlayLIB( 1359): same Rotator parameter, skip it
+D/Overlay ( 1359): setPostion: x= 0, y=75, w= 435, h = 725 refresh 0
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 0 buffer = 0x41fec000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 0 buffer = 0x42079000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 0 buffer = 0x42106000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 0 buffer = 0x42193000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 0 buffer = 0x42220000
+I/QualcommCameraHardware( 1253): PmemPool: (record) X 
+D/QualcommCameraHardware( 1253): initRecord :  record heap , video buffers  buffer=1104904192 fd=61 y_off=0 cbcr_off=384000 
+D/QualcommCameraHardware( 1253): initRecord :  record heap , video buffers  buffer=1105481728 fd=61 y_off=0 cbcr_off=384000 
+D/QualcommCameraHardware( 1253): initRecord :  record heap , video buffers  buffer=1106059264 fd=61 y_off=0 cbcr_off=384000 
+D/QualcommCameraHardware( 1253): initRecord :  record heap , video buffers  buffer=1106636800 fd=61 y_off=0 cbcr_off=384000 
+D/QualcommCameraHardware( 1253): initRecord :  record heap , video buffers  buffer=1107214336 fd=61 y_off=0 cbcr_off=384000 
+D/QualcommCameraHardware( 1253): initRecord :  record heap , video buffers  buffer=1107791872 fd=61 y_off=0 cbcr_off=384000 
+D/QualcommCameraHardware( 1253): initRecord :  record heap , video buffers  buffer=1108369408 fd=61 y_off=0 cbcr_off=384000 
+D/QualcommCameraHardware( 1253): initRecord :  record heap , video buffers  buffer=1108946944 fd=61 y_off=0 cbcr_off=384000 
+D/QualcommCameraHardware( 1253): initRecord :  record heap , video buffers  buffer=1109524480 fd=61 y_off=0 cbcr_off=384000 
+D/QualcommCameraHardware( 1253): initREcord X
+D/mm-camera( 1253): vfe_util_get_sensor_info: pre_mode=0 ctrl->mode=0
+D/QualcommCameraHardware( 1253): initpreview before cam_frame thread carete , video frame  buffer=1106636800 fd=61 y_off=0 cbcr_off=384000 
+I/QualcommCameraHardware( 1253): initPreview: create new mHtcCallbackThread 1946152
+D/QualcommCameraHardware( 1253): initPreview X: 1
+D/GPUPostEffect( 1253): virtual int mlabs::GPUPostEffect::startPreview(int, int) E.
+D/GPUPostEffect( 1253): int mlabs::GPUPostEffect::startPreview(mlabs::GPUPostEffect::GPUTask*) E.
+D/GPUPostEffect( 1253): int mlabs::GPUPostEffect::startPreview(mlabs::GPUPostEffect::GPUTask*): preview 800 x 480 started ok.
+D/GPUPostEffect( 1253): int mlabs::GPUPostEffect::startPreview(mlabs::GPUPostEffect::GPUTask*) X.
+D/OverlayLIB( 1359): same Rotator parameter, skip it
+D/GPUPostEffect( 1253): virtual int mlabs::GPUPostEffect::startPreview(int, int) X.
+D/QualcommCameraHardware( 1253): android::status_t android::QualcommCameraHardware::startPreviewInternal(): startPreview 800 x 480 (0)
+I/mm-camera( 1253): config_proc_CAMERA_START_VIDEO: received CAMERA_START_VIDEO!, ctrl->state = 0
+W/mm-camera( 1253): config_proc_CAMERA_START_VIDEO:Line:1477 This ioctl can fail if pp_mask is zero. 
+W/mm-camera( 1253): config_proc_CAMERA_START_VIDEO:Line:1479 ioctl MSM_CAM_IOCTL_PICT_PP_DONE is failed...
+I/mm-camera( 1253): 7x30 vfe enable
+I/mm-camera( 1253): 7x30 send reset command, vfeMode 3
+I/mm-camera( 1253): config_proc_ctrl_command: pendingCtrlCmd 0x1db2b0
+I/mm-camera( 1253): VFE_RESET_ACK ctrl->state 22
+D/mm-camera( 1253): vfe_util_get_sensor_info: pre_mode=0 ctrl->mode=0
+D/mm-camera( 1253): preview delay Dig_gain =1.004832, sparam->preview_fps 7685
+I/mm-camera( 1253): VFE_AXIOutputVideoConfig vfeCtrl->output1w 800 vfeCtrl->output1h 480
+I/mm-camera( 1253): VFE_AXIOutputVideoConfig vfeCtrl->output2w 800 vfeCtrl->output2h 480
+I/mm-camera( 1253): AXI Output wm0.busUbDepth 303
+I/mm-camera( 1253): AXI Output wm4.busUbDepth 151
+I/mm-camera( 1253): AXI Output wm1.busUbDepth 303
+I/mm-camera( 1253): AXI Output wm5.busUbDepth 151
+I/ActivityManager( 1359): Displayed com.innominds.camerapreviewsample/.CameraPreviewSampleActivity: +1s583ms
+V/WindowManager( 1359): Finished animation in AppWindowToken{40e1d618 token=HistoryRecord{40550f20 com.innominds.camerapreviewsample/.MainActivity}} @ 147119230
+V/WindowManager( 1359): Finished animation in AppWindowToken{4057dcc0 token=HistoryRecord{40a38690 com.innominds.camerapreviewsample/.CameraPreviewSampleActivity}} @ 147119230
+D/mm-camera( 1253): start to set sce config.
+D/mm-camera( 1253): sce at computeTRansforms m_p: 1.000000
+D/mm-camera( 1253): sce m_p:1.000000
+D/mm-camera( 1253): sce rEnd_Cr:0.000000,rEnd_Cb:0.000000,Start_Cr:0.000000,Start_Cb:0.000000
+D/mm-camera( 1253): sce rEnd_Cr:0.000000,rEnd_Cb:0.000000,Start_Cr:0.000000,Start_Cb:0.000000
+D/mm-camera( 1253): sce m_p:1.000000
+D/mm-camera( 1253): sce rEnd_Cr:0.000000,rEnd_Cb:0.000000,Start_Cr:0.000000,Start_Cb:0.000000
+D/mm-camera( 1253): sce rEnd_Cr:0.000000,rEnd_Cb:0.000000,Start_Cr:0.000000,Start_Cb:0.000000
+D/mm-camera( 1253): sce m_p:1.000000
+D/mm-camera( 1253): sce rEnd_Cr:0.000000,rEnd_Cb:0.000000,Start_Cr:0.000000,Start_Cb:0.000000
+D/mm-camera( 1253): sce rEnd_Cr:0.000000,rEnd_Cb:0.000000,Start_Cr:0.000000,Start_Cb:0.000000
+D/mm-camera( 1253): sce m_p:1.000000
+D/mm-camera( 1253): sce rEnd_Cr:0.000000,rEnd_Cb:0.000000,Start_Cr:0.000000,Start_Cb:0.000000
+D/mm-camera( 1253): sce rEnd_Cr:0.000000,rEnd_Cb:0.000000,Start_Cr:0.000000,Start_Cb:0.000000
+D/mm-camera( 1253): sce m_p:1.000000
+D/mm-camera( 1253): sce rEnd_Cr:0.000000,rEnd_Cb:0.000000,Start_Cr:0.000000,Start_Cb:0.000000
+D/mm-camera( 1253): sce rEnd_Cr:0.000000,rEnd_Cb:0.000000,Start_Cr:0.000000,Start_Cb:0.000000
+D/mm-camera( 1253): set sce config done
+D/QualcommCameraHardware( 1253): htc_callback_thread E
+I/QualcommCameraHardware( 1253): runHtcCallbackThread E
+I/QualcommCameraHardware( 1253): runHtcCallbackThread: create pipes R 62 W 63
+D/QualcommCameraHardware( 1253): frame_thread E
+I/CAMFRAME:( 1253): In cam_frame  pipe terminatefd E 
+I/CAMFRAME:( 1253): In create pipe(terminatefd) in cam_frame E 
+I/CAMFRAME:( 1253): In cam_frame  pipe terminatefd X 
+I/CAMFRAME:( 1253): Open Device node : /dev/msm_camera/frame0 
+W/mm-camera( 1253): vfe_util_sendcmd: MSM_CAM_IOCTL_CONFIG_VFE failed...
+W/mm-camera( 1253): vfe_util_sendcmd: MSM_CAM_IOCTL_CONFIG_VFE failed...
+I/mm-camera( 1253): Calling vfe_start_video 
+D/OverlayLIB( 1359): same Rotator parameter, skip it
+D/dalvikvm(29031): GC_CONCURRENT freed 443K, 39% free 4414K/7175K, external 0K/0K, paused 8ms+3ms
+I/mm-camera( 1253): VFE_ID_START_ACK ctrl->state:26
+I/mm-camera( 1253): Received VFE start ACK!!! This is a user preview start.
+I/mm-camera( 1253): sending IOCTL_CTRL_CMD_DONE to kernel!, length=0 status=1
+D/QualcommCameraHardware( 1253): startPreview X
+D/QualcommCameraHardware( 1253): [ATS][camera_preview][complete]
+D/OverlayLIB( 1359): same Rotator parameter, skip it
+D/OverlayLIB( 1359): same Rotator parameter, skip it
+V/ActivityManager( 1359): Checking to restart com.innominds.camerapreviewsample.CameraPreviewSampleActivity: changed=0x0, handles=0x0
+V/ActivityManager( 1359): oldConfig={ scale=1.0 imsi=404/49 loc=en_IN touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=17 seq=99 skin=default fontsize=3}
+V/ActivityManager( 1359): newConfig={ scale=1.0 imsi=404/49 loc=en_IN touch=3 keys=1/1/2 nav=1/1 orien=1 layout=34 uiMode=17 seq=99 skin=default fontsize=3}
+I/CameraService( 1253): when get 1st preview frame
+I/CameraService( 1253): Camera KPI: since open 1567353
+I/CameraService( 1253): Camera KPI: since start preview 154358
+D/CameraService( 1253): setOverlay w 800 h 480 mOverlayW 640 mOverlayH 480
+W/QualcommCameraHardware( 1253):  Overlay object NULL. returning 
+D/OverlayLIB( 1253): OV::closeDataChannel(1752) start OvData.id 5
+D/OverlayLIB( 1253): OV::closeDataChannel(1771) end
+D/Overlay ( 1359): destroyOverlay z=0
+D/OverlayLIB( 1359): OV::closeControlChannel mOVInfo.id 5 mFBnum 0
+W/QualcommCameraHardware( 1253):  Overlay object NULL. returning 
+D/CameraService( 1253): recreate createOverlay
+D/Overlay ( 1359): createOverlay w=800 h=480 z=0 format 0x100021 
+D/OverlayLIB( 1359): ovmode 2DPANEL
+D/Overlay ( 1359): No S3D displays found, treat content as 2D
+D/Overlay ( 1359): createOverlay w=800 h=480 z=0 format 3D 0x0 ovmode 0 currentOV 0 fbnum 0
+D/OverlayLIB( 1359): startcontrolchannel: w:800 h:480 fbnum:0 format 33 colorforamt 33 format3D:0x0 zorder: 1 norot no ignoreFB yes
+D/OverlayLIB( 1359): setoverlayInfo(910) w 800 h 480 format 2 flags 0x800000 zorder 1
+D/Overlay ( 1359): setPostion: x= 0, y=75, w= 435, h = 725 refresh 1
+D/Overlay ( 1359): setPostion: x= 0, y=75, w= 435, h = 725 refresh 0
+D/SurfaceFlinger( 1359): call overlay setpos one more time mupdatePos 5
+D/CameraService( 1253): [D:camera]OVERLAY CREATED....,mOrientation=4
+D/Overlay ( 1253): In overlay_data_initialize: format3D = 0x0
+D/OverlayLIB( 1253): In OVLib: startDatachannel: fbnum = 0 size = 576000 mOvDataid 5
+I/OverlayLIB( 1253): mFD=52
+D/OverlayLIB( 1253): datachannel:openDevices: mPmemFD:0x37 mPmemAddr:0x0x424ad000
+D/dalvikvm(29040): GC_FOR_MALLOC freed 143K, 46% free 2921K/5379K, external 0K/0K, paused 37ms
+I/dalvikvm-heap(29040): Grow heap (frag case) to 5.638MB for 576016-byte allocation
+D/dalvikvm(29040): GC_FOR_MALLOC freed <1K, 42% free 3483K/5959K, external 0K/0K, paused 54ms
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/PreviewCallBack(29040): onPreviewFrame - wrote bytes: 576000
+D/dalvikvm(29031): GC_CONCURRENT freed 418K, 38% free 4537K/7303K, external 0K/0K, paused 2ms+14ms
+D/dalvikvm(29040): GC_CONCURRENT freed 10K, 42% free 3475K/5959K, external 0K/0K, paused 1ms+13ms
+D/dalvikvm(29040): GC_FOR_MALLOC freed 563K, 52% free 2912K/5959K, external 0K/0K, paused 26ms
+I/dalvikvm-heap(29040): Grow heap (frag case) to 5.637MB for 576016-byte allocation
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/dalvikvm(29040): GC_FOR_MALLOC freed 0K, 42% free 3474K/5959K, external 0K/0K, paused 33ms
+D/mm-camera( 1253): TRIGGER_NORMAL
+D/PreviewCallBack(29040): onPreviewFrame - wrote bytes: 576000
+D/dalvikvm(29040): GC_CONCURRENT freed 1K, 42% free 3474K/5959K, external 0K/0K, paused 2ms+7ms
+D/dalvikvm(29040): GC_FOR_MALLOC freed 562K, 52% free 2911K/5959K, external 0K/0K, paused 36ms
+I/dalvikvm-heap(29040): Grow heap (frag case) to 5.637MB for 576016-byte allocation
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/dalvikvm(29040): GC_FOR_MALLOC freed 0K, 42% free 3474K/5959K, external 0K/0K, paused 46ms
+D/PreviewCallBack(29040): onPreviewFrame - wrote bytes: 576000
+D/dalvikvm(29040): GC_CONCURRENT freed <1K, 42% free 3474K/5959K, external 0K/0K, paused 2ms+6ms
+D/dalvikvm(29031): GC_CONCURRENT freed 397K, 37% free 4702K/7431K, external 0K/0K, paused 2ms+11ms
+D/dalvikvm(29040): GC_FOR_MALLOC freed 562K, 52% free 2911K/5959K, external 0K/0K, paused 46ms
+I/dalvikvm-heap(29040): Grow heap (frag case) to 5.637MB for 576016-byte allocation
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/dalvikvm(29040): GC_FOR_MALLOC freed 0K, 42% free 3474K/5959K, external 0K/0K, paused 37ms
+D/dalvikvm(29040): GC_CONCURRENT freed <1K, 42% free 3474K/5959K, external 0K/0K, paused 3ms+3ms
+D/dalvikvm(29040): GC_FOR_MALLOC freed <1K, 42% free 3474K/5959K, external 0K/0K, paused 31ms
+I/dalvikvm-heap(29040): Grow heap (frag case) to 6.187MB for 576016-byte allocation
+D/dalvikvm(29040): GC_FOR_MALLOC freed 0K, 39% free 4036K/6535K, external 0K/0K, paused 34ms
+D/dalvikvm(29040): GC_CONCURRENT freed <1K, 39% free 4036K/6535K, external 0K/0K, paused 4ms+1ms
+D/mm-camera( 1253): TRIGGER_OUTDOOR
+D/dalvikvm(29031): GC_CONCURRENT freed 422K, 36% free 4965K/7687K, external 0K/0K, paused 5ms+4ms
+D/mm-camera( 1253): TRIGGER_OUTDOOR
+D/mm-camera( 1253): TRIGGER_OUTDOOR
+D/PreviewCallBack(29040): onPreviewFrame - wrote bytes: 576000
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/dalvikvm(29040): GC_FOR_MALLOC freed 563K, 47% free 3474K/6535K, external 0K/0K, paused 44ms
+I/dalvikvm-heap(29040): Grow heap (frag case) to 6.187MB for 576016-byte allocation
+D/mm-camera( 1253): TRIGGER_OUTDOOR
+D/dalvikvm(29040): GC_FOR_MALLOC freed <1K, 39% free 4037K/6535K, external 0K/0K, paused 34ms
+D/PreviewCallBack(29040): onPreviewFrame - wrote bytes: 576000
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/PreviewCallBack(29040): onPreviewFrame - wrote bytes: 576000
+D/mm-camera( 1253): TRIGGER_OUTDOOR
+D/dalvikvm(29040): GC_CONCURRENT freed 563K, 47% free 3474K/6535K, external 0K/0K, paused 2ms+3ms
+D/dalvikvm(29040): GC_FOR_MALLOC freed 562K, 56% free 2911K/6535K, external 0K/0K, paused 44ms
+I/dalvikvm-heap(29040): Grow heap (frag case) to 5.637MB for 576016-byte allocation
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/dalvikvm(29040): GC_FOR_MALLOC freed 0K, 47% free 3474K/6535K, external 0K/0K, paused 32ms
+D/PreviewCallBack(29040): onPreviewFrame - wrote bytes: 576000
+D/mm-camera( 1253): TRIGGER_OUTDOOR
+D/dalvikvm(29040): GC_CONCURRENT freed <1K, 47% free 3474K/6535K, external 0K/0K, paused 2ms+2ms
+D/dalvikvm(29040): GC_FOR_MALLOC freed 563K, 56% free 2911K/6535K, external 0K/0K, paused 50ms
+I/dalvikvm-heap(29040): Grow heap (frag case) to 5.637MB for 576016-byte allocation
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/dalvikvm(29040): GC_FOR_MALLOC freed 0K, 47% free 3474K/6535K, external 0K/0K, paused 36ms
+D/PreviewCallBack(29040): onPreviewFrame - wrote bytes: 576000
+D/dalvikvm(29031): GC_CONCURRENT freed 413K, 34% free 5293K/8007K, external 0K/0K, paused 3ms+5ms
+D/dalvikvm(29040): GC_CONCURRENT freed <1K, 47% free 3474K/6535K, external 0K/0K, paused 3ms+8ms
+D/dalvikvm(29040): GC_FOR_MALLOC freed 562K, 56% free 2911K/6535K, external 0K/0K, paused 35ms
+I/dalvikvm-heap(29040): Grow heap (frag case) to 5.637MB for 576016-byte allocation
+D/dalvikvm(29040): GC_FOR_MALLOC freed 0K, 47% free 3474K/6535K, external 0K/0K, paused 40ms
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/PreviewCallBack(29040): onPreviewFrame - wrote bytes: 576000
+D/dalvikvm(29040): GC_CONCURRENT freed <1K, 47% free 3474K/6535K, external 0K/0K, paused 2ms+9ms
+D/dalvikvm(29040): GC_FOR_MALLOC freed 562K, 56% free 2911K/6535K, external 0K/0K, paused 30ms
+I/dalvikvm-heap(29040): Grow heap (frag case) to 5.637MB for 576016-byte allocation
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/dalvikvm(29040): GC_FOR_MALLOC freed 0K, 47% free 3474K/6535K, external 0K/0K, paused 26ms
+D/PreviewCallBack(29040): onPreviewFrame - wrote bytes: 576000
+D/mm-camera( 1253): TRIGGER_OUTDOOR
+D/dalvikvm(29040): GC_CONCURRENT freed <1K, 47% free 3474K/6535K, external 0K/0K, paused 3ms+7ms
+D/dalvikvm(29040): GC_FOR_MALLOC freed 562K, 56% free 2911K/6535K, external 0K/0K, paused 36ms
+I/dalvikvm-heap(29040): Grow heap (frag case) to 5.637MB for 576016-byte allocation
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/dalvikvm(29040): GC_FOR_MALLOC freed 0K, 47% free 3474K/6535K, external 0K/0K, paused 33ms
+D/mm-camera( 1253): TRIGGER_OUTDOOR
+D/dalvikvm(29040): GC_CONCURRENT freed <1K, 47% free 3474K/6535K, external 0K/0K, paused 3ms+2ms
+D/dalvikvm(29040): GC_FOR_MALLOC freed <1K, 47% free 3474K/6535K, external 0K/0K, paused 21ms
+I/dalvikvm-heap(29040): Grow heap (frag case) to 6.187MB for 576016-byte allocation
+D/mm-camera( 1253): TRIGGER_OUTDOOR
+D/dalvikvm(29040): GC_FOR_MALLOC freed 0K, 39% free 4036K/6535K, external 0K/0K, paused 53ms
+D/dalvikvm(29040): GC_CONCURRENT freed <1K, 39% free 4036K/6535K, external 0K/0K, paused 1ms+5ms
+D/mm-camera( 1253): TRIGGER_OUTDOOR
+D/dalvikvm(29031): GC_CONCURRENT freed 557K, 35% free 5522K/8455K, external 0K/0K, paused 4ms+8ms
+D/StatusBarPolicy( 1516): Network Type: 2
+D/mm-camera( 1253): TRIGGER_OUTDOOR
+D/mm-camera( 1253): TRIGGER_OUTDOOR
+D/mm-camera( 1253): TRIGGER_OUTDOOR
+W/Finsky  (28981): [1] 2.onErrorResponse: Update check failed: com.google.android.finsky.utils.BgDataDisabledError
+D/Database(29031): dbopen(): path = /data/data/com.facebook.katana/databases/newsfeed_db, flag = 6, file size = 74752
+D/Finsky  (28981): [1] DailyHygiene.reschedule: Giving up. (failures=6)
+I/Database(29031): sqlite returned: error code = 0, msg = Recovered 73 frames from WAL file /data/data/com.facebook.katana/databases/newsfeed_db-wal
+D/Database(29031): dbopen(): path = /data/data/com.facebook.katana/databases/newsfeed_db, mode: wal, disk free size: 619 M, handle: 0x3993b8
+D/mm-camera( 1253): TRIGGER_OUTDOOR
+D/dalvikvm(28981): GC_CONCURRENT freed 1041K, 50% free 3416K/6791K, external 0K/0K, paused 2ms+7ms
+D/mm-camera( 1253): TRIGGER_OUTDOOR
+D/mm-camera( 1253): TRIGGER_NORMAL
+I/fb4a(:<default>):OrcaInjector(29031): Created just-in-time provider for class com.facebook.orca.abtest.MessagesQuickExperimentNameHolder
+I/fb4a(:<default>):OrcaInjector(29031): Created just-in-time provider for class com.facebook.katana.abtest.FbandroidQuickExperimentNameHolder
+D/dalvikvm(29031): GC_CONCURRENT freed 734K, 35% free 5722K/8775K, external 0K/0K, paused 13ms+3ms
+D/Socket_Alarm(29031): registerHTCSocketMonitorCallBack
+D/Socket_Alarm(29031): set mSocketMonitor
+D/Socket_Alarm(29031): HTCSocketMonitorImpl::HTCSocketMonitorImpl
+I/dalvikvm(29031): Could not find method android.view.Display.getSize, referenced from method com.facebook.analytics.AnalyticsDeviceUtils.a
+W/dalvikvm(29031): VFY: unable to resolve virtual method 1064: Landroid/view/Display;.getSize (Landroid/graphics/Point;)V
+D/dalvikvm(29031): VFY: replacing opcode 0x6e at 0x0030
+I/fb4a(:<default>):OrcaInjector(29031): Created just-in-time provider for class com.facebook.camera.gating.CameraGatekeeperSetProvider
+I/dalvikvm(29031): Could not find method android.view.Display.getSize, referenced from method com.facebook.katana.UserAgent.c
+W/dalvikvm(29031): VFY: unable to resolve virtual method 1064: Landroid/view/Display;.getSize (Landroid/graphics/Point;)V
+D/dalvikvm(29031): VFY: replacing opcode 0x6e at 0x001f
+D/PreviewCallBack(29040): onPreviewFrame - wrote bytes: 576000
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/dalvikvm(29040): GC_FOR_MALLOC freed 563K, 47% free 3474K/6535K, external 0K/0K, paused 42ms
+I/dalvikvm-heap(29040): Grow heap (frag case) to 6.187MB for 576016-byte allocation
+D/dalvikvm(29040): GC_FOR_MALLOC freed 0K, 39% free 4037K/6535K, external 0K/0K, paused 31ms
+D/PreviewCallBack(29040): onPreviewFrame - wrote bytes: 576000
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/PreviewCallBack(29040): onPreviewFrame - wrote bytes: 576000
+D/dalvikvm(29040): GC_CONCURRENT freed 563K, 47% free 3474K/6535K, external 0K/0K, paused 3ms+5ms
+I/fb4a(:<default>):OrcaInjector(29031): Created just-in-time provider for class com.facebook.mqtt.MqttSsl
+D/dalvikvm(29040): GC_FOR_MALLOC freed 563K, 56% free 2911K/6535K, external 0K/0K, paused 32ms
+I/dalvikvm-heap(29040): Grow heap (frag case) to 5.637MB for 576016-byte allocation
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/dalvikvm(29040): GC_FOR_MALLOC freed 0K, 47% free 3474K/6535K, external 0K/0K, paused 31ms
+D/PreviewCallBack(29040): onPreviewFrame - wrote bytes: 576000
+D/dalvikvm(29040): GC_CONCURRENT freed <1K, 47% free 3474K/6535K, external 0K/0K, paused 2ms+2ms
+I/fb4a(:<default>):OrcaInjector(29031): Created just-in-time provider for class com.facebook.push.c2dm.UnregisterPushTokenMethod
+D/dalvikvm(29040): GC_FOR_MALLOC freed 563K, 56% free 2911K/6535K, external 0K/0K, paused 40ms
+I/dalvikvm-heap(29040): Grow heap (frag case) to 5.637MB for 576016-byte allocation
+D/dalvikvm(29040): GC_FOR_MALLOC freed 0K, 47% free 3474K/6535K, external 0K/0K, paused 44ms
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/dalvikvm(29031): GC_CONCURRENT freed 827K, 35% free 5880K/9031K, external 0K/0K, paused 10ms+3ms
+D/PreviewCallBack(29040): onPreviewFrame - wrote bytes: 576000
+W/KeyCharacterMap(29040): Can't open keycharmap file
+W/KeyCharacterMap(29040): Error loading keycharmap file '/system/usr/keychars/synaptics-rmi-touchscreen.kcm.bin'. hw.keyboards.65537.devname='synaptics-rmi-touchscreen'
+I/KeyCharacterMap(29040): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+D/dalvikvm(29040): GC_CONCURRENT freed <1K, 47% free 3474K/6535K, external 0K/0K, paused 2ms+2ms
+D/dalvikvm(29040): GC_FOR_MALLOC freed 562K, 56% free 2911K/6535K, external 0K/0K, paused 43ms
+D/Database(29031): dbopen(): path = /data/data/com.facebook.katana/databases/prefs_db, flag = 6, file size = 38912
+I/dalvikvm-heap(29040): Grow heap (frag case) to 5.637MB for 576016-byte allocation
+I/Database(29031): sqlite returned: error code = 0, msg = Recovered 38 frames from WAL file /data/data/com.facebook.katana/databases/prefs_db-wal
+D/Database(29031): dbopen(): path = /data/data/com.facebook.katana/databases/prefs_db, mode: wal, disk free size: 619 M, handle: 0x3d2838
+D/dalvikvm(29040): GC_FOR_MALLOC freed 0K, 47% free 3474K/6535K, external 0K/0K, paused 42ms
+D/CameraService( 1253): setPreviewCallbackFlag(7) (pid 29040)
+D/PreviewCallBack(29040): onPreviewFrame - wrote bytes: 576000
+D/dalvikvm(29040): GC_CONCURRENT freed 563K, 56% free 2911K/6535K, external 0K/0K, paused 2ms+8ms
+D/dalvikvm(29040): GC_FOR_MALLOC freed <1K, 56% free 2911K/6535K, external 0K/0K, paused 37ms
+I/dalvikvm-heap(29040): Grow heap (frag case) to 5.637MB for 576016-byte allocation
+D/CameraService( 1253): setPreviewCallbackFlag(0) (pid 29040)
+D/CameraService( 1253): stopPreview (pid 29040)
+D/QualcommCameraHardware( 1253): stopPreview: E
+D/QualcommCameraHardware( 1253): stopPreviewInternal E: 1
+D/QualcommCameraHardware( 1253): cancelAutoFocusInternal E
+I/mm-camera( 1253): config_proc_CAMERA_STOP_VIDEO:, ctrl->state = 27
+I/mm-camera( 1253): vfe_stop_vfe: vfe_util_sendcmd: rc = 1 
+I/mm-camera( 1253): config_proc_ctrl_command: pendingCtrlCmd 0x1dbdc0
+I/mm-camera( 1253): Received VFE Stop ACK!!! ctrlCmd->type 57
+I/mm-camera( 1253): sending CTRL_CMD_DONE to kernel!, length = 0, status = 1
+I/mm-camera( 1253): VFE_RESET_ACK ctrl->state 25
+W/mm-camera( 1253): VFE_RESET_ACK illegal ctrl->state 25
+D/dalvikvm(29040): GC_FOR_MALLOC freed 0K, 47% free 3474K/6535K, external 0K/0K, paused 46ms
+I/QualcommCameraHardware( 1253): deinitPreview E
+I/CAMFRAME:( 1253): In camframe_terminate E
+I/CAMFRAME:( 1253): camframe_terminate: gCamFrameDebugFrame1 1
+I/CAMFRAME:( 1253): In camframe_terminate X
+I/CAMFRAME:( 1253): camframe_terminate: gCamFrameDebugFrame2 1
+I/QualcommCameraHardware( 1253): deinitPreview X
+D/GPUPostEffect( 1253): virtual int mlabs::GPUPostEffect::stopPreview() E.
+D/CAMFRAME:( 1253): cam_frame: gCamFrameDebugFrame 2
+I/CAMFRAME:( 1253): cam_frame: Before Exiting camframe thread
+I/CAMFRAME:( 1253): cam_frame: Exiting camframe thread - 66
+I/QualcommCameraHardware( 1253): ~PmemPool: preview E
+I/QualcommCameraHardware( 1253): register_buf: camfd = 56, reg = 1 buffer = 0x41b84000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 56, reg = 1 buffer = 0x41c11000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 56, reg = 1 buffer = 0x41c9e000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 56, reg = 1 buffer = 0x41d2b000
+I/QualcommCameraHardware( 1253): ~PmemPool: preview X
+I/QualcommCameraHardware( 1253): ~PmemPool: record E
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 1 buffer = 0x41db8000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 1 buffer = 0x41e45000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 1 buffer = 0x41ed2000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 1 buffer = 0x41f5f000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 1 buffer = 0x41fec000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 1 buffer = 0x42079000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 1 buffer = 0x42106000
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 1 buffer = 0x42193000
+D/QualcommCameraHardware( 1253): Unregister lastest buffer for MSM_PMEM_VIDEO
+I/QualcommCameraHardware( 1253): register_buf: camfd = 59, reg = 1 buffer = 0x42220000
+I/QualcommCameraHardware( 1253): ~PmemPool: record X
+D/QualcommCameraHardware( 1253): frame_thread X
+D/GPUPostEffect( 1253): int mlabs::GPUPostEffect::stopPreview(mlabs::GPUPostEffect::GPUTask*) E.
+D/GPUPostEffect( 1253): int mlabs::GPUPostEffect::stopPreview(mlabs::GPUPostEffect::GPUTask*) X.
+D/GPUPostEffect( 1253): virtual int mlabs::GPUPostEffect::stopPreview() X.
+D/QualcommCameraHardware( 1253): void android::QualcommCameraHardware::stopPreviewInternal(): stopPreview done.
+D/QualcommCameraHardware( 1253): stopPreviewInternal X: 0
+D/QualcommCameraHardware( 1253): stopPreview: X
+D/Camera-JNI(29040): native_release: context=0x3602f8 camera=0x3601b0
+D/CameraService( 1253): setPreviewCallbackFlag(0) (pid 29040)
+D/CameraService( 1253): disconnect E (pid 29040)
+D/CameraService( 1253): hardware teardown
+D/QualcommCameraHardware( 1253): stopPreview: E
+D/QualcommCameraHardware( 1253): stopPreviewInternal E: 0
+D/QualcommCameraHardware( 1253): stopPreviewInternal X: 0
+D/QualcommCameraHardware( 1253): stopPreview: X
+D/QualcommCameraHardware( 1253): release E
+W/mm-camera( 1253): config_proc_CAMERA_STOP_SNAPSHOT: state is not correct ctrl->state = 25
+I/mm-camera( 1253): vfe_stop_vfe: vfe_util_sendcmd: rc = 1 
+I/mm-camera( 1253): Received VFE Stop ACK!!! ctrlCmd is NULL
+I/mm-camera( 1253): VFE_RESET_ACK ctrl->state 24
+W/mm-camera( 1253): VFE_RESET_ACK illegal ctrl->state 24
+D/        ( 1253): SIMON:GM: mlabs::GPUPostEffect::GPUTask* mlabs::GPUPostEffect::get(): cancel 0 tasks.
+I/GEManager( 1253): [~GEManager] enter
+I/GEManager( 1253): [Deinit] enter
+I/GEManager( 1253): [Deinit] delete m_pCurrShader
+I/GEManager( 1253): [Deinit] delete m_pShaderBypass
+I/GEManager( 1253): [Deinit] delete m_pSrcTexture
+I/GEManager( 1253): [Deinit] delete m_pDstFbo
+I/GEManager( 1253): [Deinit] leave
+I/GEManager( 1253): [~GEManager] eglMakeCurrent
+I/GEManager( 1253): [~GEManager] eglDestroySurface
+I/GEManager( 1253): [~GEManager] eglDestroyContext
+I/GEManager( 1253): [~GEManager] eglTerminate
+I/GEManager( 1253): [~GEManager] leave
+D/GPUPostEffect( 1253): void* mlabs::GPUPostEffect::threadMain() X.
+D/QualcommCameraHardware( 1253): libposteffect at 0xb000f4b8 unloaded.
+D/QualcommCameraHardware( 1253): virtual void android::QualcommCameraHardware::release(): GPU manager stopped.
+D/QualcommCameraHardware( 1253): deinitRaw E
+D/QualcommCameraHardware( 1253): deinitRaw X
+D/mm-camera( 1253): set_led_mode = 0, led_ctrl_p->led_mode = 0
+D/dalvikvm(29040): GC_CONCURRENT freed <1K, 47% free 3474K/6535K, external 0K/0K, paused 2ms+32ms
+D/mm-camera stacktrace( 1253): +++ DELETING LEAKED MEMORY AT 0x1db1d8 (4 REMAINING)
+D/mm-camera stacktrace( 1253): +++ DELETING LEAKED MEMORY AT 0x1db180 (3 REMAINING)
+D/mm-camera stacktrace( 1253): +++ DELETING LEAKED MEMORY AT 0x1db128 (2 REMAINING)
+D/mm-camera stacktrace( 1253): +++ DELETING LEAKED MEMORY AT 0x1dab58 (1 REMAINING)
+D/QualcommCameraHardware( 1253): dlclose(libqcamera)
+D/QualcommCameraHardware( 1253): mHtcCallbackThread 1946152
+I/QualcommCameraHardware( 1253): notifyHtcCallback: (-1 0 0)
+I/QualcommCameraHardware( 1253): runHtcCallbackThread: read pipe - exit thread
+I/QualcommCameraHardware( 1253): runHtcCallbackThread X
+D/QualcommCameraHardware( 1253): htc_callback_thread X
+I/QualcommCameraHardware( 1253): release X: mCameraRunning = 0, mFrameThreadRunning = 0
+I/QualcommCameraHardware( 1253): mVideoThreadRunning = 0, mSnapshotThreadRunning = 0, mJpegThreadRunning = 0
+I/QualcommCameraHardware( 1253): camframe_timeout_flag = 0, mAutoFocusThreadRunning = 0
+W/QualcommCameraHardware( 1253):  Overlay object NULL. returning 
+D/OverlayLIB( 1253): OV::closeDataChannel(1752) start OvData.id 5
+D/OverlayLIB( 1253): OV::closeDataChannel(1771) end
+D/Overlay ( 1359): destroyOverlay z=0
+D/OverlayLIB( 1359): OV::closeControlChannel mOVInfo.id 5 mFBnum 0
+I/QualcommCameraHardware( 1253): ~QualcommCameraHardware E tid 1386
+I/QualcommCameraHardware( 1253): ~QualcommCameraHardware X
+D/QualcommCameraHardware( 1253): [ATS][close_camera][complete]
+W/ActivityManager( 1359): Activity pause timeout for HistoryRecord{40a38690 com.innominds.camerapreviewsample/.CameraPreviewSampleActivity}
+I/FD      ( 1253): [Ola_FaceDetector_Destroy:218] destroy num : 0
+D/CameraPP( 1253): CameraPP::~CameraPP()
+D/SDO_PP  ( 1253): SDO_PP::~SDO_PP()
+D/CameraService( 1253): CameraService::removeClient E (pid 29040)
+D/CameraService( 1253): removeClient: clear camera 0
+D/CameraService( 1253): CameraService::removeClient X (pid 29040)
+D/CameraService( 1253): disconnect X (pid 29040)
+D/CameraService( 1253): Client::~Client E (pid 1253, this 0x1da718)
+D/CameraService( 1253): disconnect E (pid 1253)
+D/CameraService( 1253): Client::~Client X (pid 1253, this 0x1da718)
+V/WindowManager( 1359): Starting animation in AppWindowToken{40e1d618 token=HistoryRecord{40550f20 com.innominds.camerapreviewsample/.MainActivity}} @ 147124214
+V/WindowManager( 1359): Starting animation in AppWindowToken{4057dcc0 token=HistoryRecord{40a38690 com.innominds.camerapreviewsample/.CameraPreviewSampleActivity}} @ 147124214
+D/dalvikvm(29031): GC_CONCURRENT freed 737K, 33% free 6184K/9223K, external 0K/0K, paused 3ms+3ms
+V/WindowManager( 1359): Finished animation in AppWindowToken{40e1d618 token=HistoryRecord{40550f20 com.innominds.camerapreviewsample/.MainActivity}} @ 147124395
+V/WindowManager( 1359): Finished animation in AppWindowToken{4057dcc0 token=HistoryRecord{40a38690 com.innominds.camerapreviewsample/.CameraPreviewSampleActivity}} @ 147124395
+D/ActivityManager( 1359): destroyActivityLocked, r=HistoryRecord{40a38690 com.innominds.camerapreviewsample/.CameraPreviewSampleActivity}
+V/ActivityManager( 1359): destroyActivityLocked, dalvik.system.VMStack.getThreadStackTrace(Native Method)
+V/ActivityManager( 1359): destroyActivityLocked, java.lang.Thread.getStackTrace(Thread.java:745)
+V/ActivityManager( 1359): destroyActivityLocked, com.android.server.am.ActivityStack.destroyActivityLocked(ActivityStack.java:3332)
+V/ActivityManager( 1359): destroyActivityLocked, com.android.server.am.ActivityStack.finishCurrentActivityLocked(ActivityStack.java:3230)
+V/ActivityManager( 1359): destroyActivityLocked, com.android.server.am.ActivityStack.finishCurrentActivityLocked(ActivityStack.java:3191)
+V/ActivityManager( 1359): destroyActivityLocked, com.android.server.am.ActivityStack.activityIdleInternal(ActivityStack.java:2998)
+V/ActivityManager( 1359): destroyActivityLocked, com.android.server.am.ActivityStack$2.handleMessage(ActivityStack.java:339)
+V/ActivityManager( 1359): destroyActivityLocked, android.os.Handler.dispatchMessage(Handler.java:99)
+V/ActivityManager( 1359): destroyActivityLocked, android.os.Looper.loop(Looper.java:150)
+V/ActivityManager( 1359): destroyActivityLocked, com.android.server.ServerThread.run(SystemServer.java:772)
+D/WindowManagerImpl(29040): finishRemoveViewLocked, mViews[1]: com.android.internal.policy.impl.PhoneWindow$DecorView@4052e150
+D/dalvikvm(29031): GC_CONCURRENT freed 1098K, 36% free 6205K/9607K, external 0K/0K, paused 3ms+4ms
+D/skia    ( 1570): purging 57K from font cache [7 entries]
+D/StatusBarPolicy( 1516): Network Type: 2
+D/dalvikvm(29031): GC_CONCURRENT freed 1087K, 36% free 6279K/9671K, external 0K/0K, paused 3ms+12ms
+W/KeyCharacterMap(29040): Can't open keycharmap file
+W/KeyCharacterMap(29040): Error loading keycharmap file '/system/usr/keychars/synaptics-rmi-touchscreen.kcm.bin'. hw.keyboards.65537.devname='synaptics-rmi-touchscreen'
+I/KeyCharacterMap(29040): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+D/SensorService( 1359): disable: get sensor name = BMA150 3-axis Accelerometer
+D/SensorService( 1359): disable: sensor = 0x32ea80
+D/Sensors ( 1359): Enable akm: en = 0
+D/SensorService( 1359): SensorDevice::activate--: handle = 0x0, enabled = 0x0
+D/SensorService( 1359): pid=1359, uid=1000
+D/dalvikvm(29031): GC_CONCURRENT freed 1104K, 35% free 6331K/9735K, external 0K/0K, paused 3ms+4ms
+D/dalvikvm( 1570): GC_EXPLICIT freed 383K, 51% free 4156K/8327K, external 10130K/11979K, paused 576ms
+D/AK8975  ( 1260): Compass CLOSE 
+I/CarouselTimeLog( 1570): onStart() finish: 1377596415009
+D/CarouselDummyActivity( 1570): CarouselDummyActivity.onResume: tab_downloaded
+D/dalvikvm(29031): GC_CONCURRENT freed 1158K, 36% free 6404K/9863K, external 0K/0K, paused 5ms+9ms
+D/Wallpaper( 1570): pauseWallpaper: false
+W/InputManagerService( 1359): [unbindCurrentClientLocked] Disable input method client.
+W/InputManagerService( 1359): [startInputLocked] Enable input method client.
+V/WindowManager( 1359): Starting animation in AppWindowToken{408c9100 token=HistoryRecord{4088c0f8 com.htc.launcher/.Launcher}} @ 147126020
+V/WindowManager( 1359): Finished animation in AppWindowToken{408c9100 token=HistoryRecord{4088c0f8 com.htc.launcher/.Launcher}} @ 147126020
+V/WindowManager( 1359): Starting animation in AppWindowToken{40e1d618 token=HistoryRecord{40550f20 com.innominds.camerapreviewsample/.MainActivity}} @ 147126020
+D/ActivityManager( 1359): destroyActivityLocked, r=HistoryRecord{40550f20 com.innominds.camerapreviewsample/.MainActivity}
+V/ActivityManager( 1359): destroyActivityLocked, dalvik.system.VMStack.getThreadStackTrace(Native Method)
+V/ActivityManager( 1359): destroyActivityLocked, java.lang.Thread.getStackTrace(Thread.java:745)
+V/ActivityManager( 1359): destroyActivityLocked, com.android.server.am.ActivityStack.destroyActivityLocked(ActivityStack.java:3332)
+V/ActivityManager( 1359): destroyActivityLocked, com.android.server.am.ActivityStack.finishCurrentActivityLocked(ActivityStack.java:3230)
+V/ActivityManager( 1359): destroyActivityLocked, com.android.server.am.ActivityStack.finishCurrentActivityLocked(ActivityStack.java:3191)
+V/ActivityManager( 1359): destroyActivityLocked, com.android.server.am.ActivityStack.activityIdleInternal(ActivityStack.java:2998)
+V/ActivityManager( 1359): destroyActivityLocked, com.android.server.am.ActivityManagerService.activityIdle(ActivityManagerService.java:4410)
+V/ActivityManager( 1359): destroyActivityLocked, android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:371)
+V/ActivityManager( 1359): destroyActivityLocked, com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:1642)
+V/ActivityManager( 1359): destroyActivityLocked, android.os.Binder.execTransact(Binder.java:320)
+V/ActivityManager( 1359): destroyActivityLocked, dalvik.system.NativeStart.run(Native Method)
+D/WindowManagerImpl(29040): finishRemoveViewLocked, mViews[0]: com.android.internal.policy.impl.PhoneWindow$DecorView@40521580
+D/dalvikvm(29031): GC_CONCURRENT freed 1197K, 36% free 6429K/9927K, external 0K/0K, paused 7ms+4ms
+V/WindowManager( 1359): Finished animation in AppWindowToken{40e1d618 token=HistoryRecord{40550f20 com.innominds.camerapreviewsample/.MainActivity}} @ 147126343
+D/dalvikvm(29031): GC_CONCURRENT freed 1209K, 36% free 6474K/9991K, external 0K/0K, paused 4ms+4ms
+D/dalvikvm(29031): GC_CONCURRENT freed 1254K, 36% free 6499K/10055K, external 0K/0K, paused 3ms+4ms
+W/KeyCharacterMap( 1570): Can't open keycharmap file
+W/KeyCharacterMap( 1570): Error loading keycharmap file '/system/usr/keychars/synaptics-rmi-touchscreen.kcm.bin'. hw.keyboards.65537.devname='synaptics-rmi-touchscreen'
+I/KeyCharacterMap( 1570): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+W/dalvikvm( 1570): disableGcForExternalAlloc: true
+D/dalvikvm(29031): GC_CONCURRENT freed 1144K, 35% free 6580K/10055K, external 0K/0K, paused 4ms+20ms
+W/dalvikvm( 1570): disableGcForExternalAlloc: false
+W/Rosie   ( 1570): mAddHtcWidgetByOtherActivity = false, mIsOpenSlideWhenLeaveLaunch = false
+D/dalvikvm(29031): GC_CONCURRENT freed 1252K, 35% free 6630K/10183K, external 0K/0K, paused 3ms+4ms
+D/StatusBarPolicy( 1516): Network Type: 2
+D/dalvikvm(29031): GC_CONCURRENT freed 1301K, 36% free 6642K/10247K, external 0K/0K, paused 3ms+4ms
+D/Database(29031): dbopen(): path = /data/data/com.facebook.katana/databases/timeline_db, flag = 6, file size = 283648
+I/Database(29031): sqlite returned: error code = 0, msg = Recovered 277 frames from WAL file /data/data/com.facebook.katana/databases/timeline_db-wal
+D/Database(29031): dbopen(): path = /data/data/com.facebook.katana/databases/timeline_db, mode: wal, disk free size: 619 M, handle: 0x3f6c70
+D/Database(29031): dbopen(): path = /data/data/com.facebook.katana/databases/pages_db, flag = 6, file size = 5120
+D/Database(29031): dbopen(): path = /data/data/com.facebook.katana/databases/pages_db, mode: wal, disk free size: 619 M, handle: 0x407620
+D/Database(29031): dbopen(): path = /data/data/com.facebook.katana/databases/qe_db, flag = 6, file size = 7168
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/Database(29031): dbopen(): path = /data/data/com.facebook.katana/databases/fb.db, flag = 6, file size = 830464
+I/Database(29031): sqlite returned: error code = 0, msg = Recovered 811 frames from WAL file /data/data/com.facebook.katana/databases/fb.db-wal
+D/Database(29031): dbopen(): path = /data/data/com.facebook.katana/databases/fb.db, mode: wal, disk free size: 619 M, handle: 0x439010
+I/Database(29031): sqlite returned: error code = 0, msg = Recovered 7 frames from WAL file /data/data/com.facebook.katana/databases/qe_db-wal
+D/Database(29031): dbopen(): path = /data/data/com.facebook.katana/databases/qe_db, mode: wal, disk free size: 619 M, handle: 0x3d4dd0
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/dalvikvm(29031): GC_CONCURRENT freed 1173K, 35% free 6737K/10247K, external 0K/0K, paused 8ms+4ms
+D/dalvikvm(29031): GC_FOR_MALLOC freed 88K, 35% free 6665K/10247K, external 0K/0K, paused 47ms
+I/dalvikvm-heap(29031): Grow heap (frag case) to 8.879MB for 131088-byte allocation
+D/dalvikvm(29031): GC_FOR_MALLOC freed 3K, 35% free 6789K/10439K, external 0K/0K, paused 48ms
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+D/dalvikvm(29031): GC_FOR_MALLOC freed 420K, 34% free 6955K/10439K, external 0K/0K, paused 59ms
+I/dalvikvm(29031): Could not find method android.app.AlertDialog$Builder.<init>, referenced from method com.facebook.katana.activity.composer.ComposerActivity.ae
+W/dalvikvm(29031): VFY: unable to resolve direct method 38: Landroid/app/AlertDialog$Builder;.<init> (Landroid/content/Context;I)V
+D/dalvikvm(29031): VFY: replacing opcode 0x70 at 0x0009
+I/keystore( 1257): uid: 1000 action: e -> 7 state: 2 -> 2 retry: 4
+I/dalvikvm(29031): Could not find method android.os.RemoteException.<init>, referenced from method com.facebook.orca.server.OrcaService.a
+W/dalvikvm(29031): VFY: unable to resolve direct method 1007: Landroid/os/RemoteException;.<init> (Ljava/lang/String;)V
+D/dalvikvm(29031): VFY: replacing opcode 0x70 at 0x009b
+D/dalvikvm(29031): VFY: dead code 0x009e-009e in Lcom/facebook/orca/server/OrcaService;.a (Lcom/facebook/orca/server/OperationType;Landroid/os/Bundle;)Ljava/lang/String;

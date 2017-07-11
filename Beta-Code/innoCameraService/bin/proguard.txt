@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:25
+-keep class com.innominds.innocameraservice.InnoAllJoynCameraService { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class com.innominds.innocameraservice.InnoCameraServiceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:11
+-keep class com.innominds.innocameraservice.InnoCameraServiceApplication { <init>(...); }
+

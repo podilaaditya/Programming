@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.innominds.innocameraservice"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="9"
+          android:targetSdkVersion="14"
+          android:maxSdkVersion="18" />  
+
+
+    <application 
+      android:label="@string/app_name" 
+      android:icon="@drawable/ic_launcher"
+      android:name=".InnoCameraServiceApplication"
+      >
+
+        <activity android:name="InnoCameraServiceActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    
+        <service
+            android:name=".InnoAllJoynCameraService">
+        </service>service>
+
+    </application>
+
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <!-- Permission required to use the Bluetooth transport -->
+    <uses-permission android:name="android.permission.BLUETOOTH"></uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"></uses-permission>    
+
+</manifest>
+<!--here we are yet to create 
+1. AllJoyn Camera Activity which should get loaded once the app is launched 
+2. Create the AllJoyn Camera Service whcih which help setup the the AllJoyn Service
+3. Create the Application class which can act as the modal .. in the sence can send the byte array to to it and it would send to
+ideal place as per the chat application 
+4. Need a review to the design of this-->

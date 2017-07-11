@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/controls"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal" >
+		
+		<RelativeLayout
+			android:id="@+id/panel_layout"
+			android:layout_width="@dimen/panel_min_width"
+			android:layout_height="match_parent"
+			android:background="@drawable/panel_background"
+			android:clipChildren="false"
+			android:paddingBottom="@dimen/panel_padding"
+			android:paddingTop="@dimen/panel_padding" >
+
+			<RelativeLayout
+				android:id="@+id/panel_content"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:visibility="gone" >
+
+				<RelativeLayout
+					android:id="@+id/video_resolution_button"
+					style="@style/PanelButton"
+		
+					android:background="@drawable/panel_button"
+					android:clickable="true"
+					android:clipChildren="false" >
+					
+
+					<com.aptina.camera.components.SizeHolder
+						xmlns:aptina="http://schemas.android.com/apk/res/com.aptina"
+						android:id="@+id/video_resolution_value"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_alignParentTop="true"
+						android:layout_marginTop="@dimen/resolution_holder_margin_top"
+						aptina:deselectedColor="@color/resolution_button_text_color"
+						aptina:selected="false"
+						aptina:selectedColor="@color/resolution_button_text_color" />
+
+					<TextView
+						android:id="@+id/video_resolution_label"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentBottom="true"
+						android:layout_centerHorizontal="true"
+						android:layout_marginBottom="@dimen/panel_button_label_margin_bottom"
+						android:text="@string/video_resolution_label"
+						android:textColor="@color/resolution_button_text_color"
+						android:textSize="@dimen/panel_button_caption_font_size" />
+
+					<ImageView
+						android:id="@+id/interlaced_foreground"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:src="@drawable/panel_button_upper_effects" />
+				</RelativeLayout>
+				<RelativeLayout
+					android:id="@+id/snapshot_resolution_button"
+					style="@style/PanelButton"
+					android:layout_below="@id/video_resolution_button"
+					android:background="@drawable/panel_button"
+					android:clickable="true"
+					android:clipChildren="false" >
+					
+
+					<com.aptina.camera.components.SizeHolder
+						xmlns:aptina="http://schemas.android.com/apk/res/com.aptina"
+						android:id="@+id/snapshot_resolution_value"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_alignParentTop="true"
+						android:layout_marginTop="@dimen/resolution_holder_margin_top"
+						aptina:deselectedColor="@color/resolution_button_text_color"
+						aptina:selected="false"
+						aptina:selectedColor="@color/resolution_button_text_color" />
+
+					<TextView
+						android:id="@+id/snapshot_resolution_label"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentBottom="true"
+						android:layout_centerHorizontal="true"
+						android:layout_marginBottom="@dimen/panel_button_label_margin_bottom"
+						android:text="@string/snapshot_resolution_label"
+						android:textColor="@color/resolution_button_text_color"
+						android:textSize="@dimen/panel_button_caption_font_size" />
+
+					<ImageView
+						android:id="@+id/interlaced_foreground"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:src="@drawable/panel_button_upper_effects" />
+				</RelativeLayout>
+				<RelativeLayout
+					android:id="@+id/mode_button"
+					style="@style/PanelButton"
+					android:layout_below="@+id/snapshot_resolution_button"
+					android:background="@drawable/panel_button"
+					android:clickable="true"
+					android:clipChildren="false" >
+
+					<ImageView
+						android:id="@+id/mode_image_holder"
+						android:layout_width="@dimen/panel_button_icon_width"
+						android:layout_height="@dimen/panel_button_icon_height"
+						android:layout_alignParentTop="true"
+						android:layout_centerHorizontal="true"
+						android:layout_marginTop="@dimen/panel_button_image_margin_top"
+						android:scaleType="centerInside"
+						android:src="@drawable/icon_inactive_hdr" />
+
+					<TextView
+						android:id="@+id/mode_label"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentBottom="true"
+						android:layout_centerHorizontal="true"
+						android:layout_marginBottom="@dimen/panel_button_label_margin_bottom"
+						android:text="@string/mode_hdr"
+						android:textColor="@color/inactive_icon_color"
+						android:textSize="@dimen/panel_button_caption_font_size" />
+
+					<ImageView
+						android:id="@+id/interlaced_foreground"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:src="@drawable/panel_button_upper_effects" />
+				</RelativeLayout>
+				<RelativeLayout
+					android:id="@+id/options_button"
+					style="@style/PanelButton"
+					android:layout_below="@id/mode_button"
+					android:background="@drawable/panel_button"
+					android:clickable="true"
+					android:clipChildren="false" >
+
+					<ImageView
+						android:id="@+id/options_image_holder"
+						android:layout_width="@dimen/panel_button_icon_width"
+						android:layout_height="@dimen/panel_button_icon_height"
+						android:layout_alignParentTop="true"
+						android:layout_centerHorizontal="true"
+						android:layout_marginTop="@dimen/panel_button_image_margin_top"
+						android:scaleType="centerInside"
+						android:src="@drawable/icon_options" />
+
+					<TextView
+						android:id="@+id/options_label"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentBottom="true"
+						android:layout_centerHorizontal="true"
+						android:layout_marginBottom="@dimen/panel_button_label_margin_bottom"
+						android:text="@string/options_label"
+						android:textColor="@color/resolution_button_text_color"
+						android:textSize="@dimen/panel_button_caption_font_size" />
+
+					<ImageView
+						android:id="@+id/interlaced_foreground"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:src="@drawable/panel_button_upper_effects" />
+				</RelativeLayout>
+				
+
+				<RelativeLayout
+					android:id="@+id/reset_button"
+					android:layout_width="@dimen/panel_button_size"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/options_button"
+					android:layout_centerHorizontal="true"
+					android:layout_marginTop="@dimen/reset_button_margin_top"
+					android:layout_marginBottom="-35px"
+					android:background="@drawable/settings_button"
+					android:clickable="true" >
+
+					<TextView
+						android:id="@+id/reset_label"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_centerInParent="true"
+						android:text="@string/reset_label"
+						android:textColor="@color/resolution_button_text_color"
+						android:textSize="@dimen/panel_button_caption_font_size" />
+				</RelativeLayout>
+				<ImageView
+					android:id="@+id/panel_divider"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_above="@id/switch_button"
+					android:layout_centerHorizontal="true"
+					android:layout_marginBottom="@dimen/panel_divider_margin_bottom"
+					android:scaleType="fitCenter"
+					android:src="@drawable/panel_div" />
+				<RelativeLayout
+					android:id="@+id/switch_button"
+					style="@style/PanelButton"
+					android:layout_alignParentBottom="true"
+					android:layout_marginBottom="0dip"
+					android:background="@drawable/panel_button"
+					android:clickable="true"
+					android:clipChildren="false" >
+
+					<ImageView
+						android:id="@+id/switch_image_holder"
+						android:layout_width="@dimen/panel_button_icon_width"
+						android:layout_height="@dimen/panel_button_icon_height"
+						android:layout_alignParentTop="true"
+						android:layout_centerHorizontal="true"
+						android:layout_marginTop="@dimen/panel_button_image_margin_top"
+						android:scaleType="centerInside"
+						android:src="@drawable/icon_switch_photo" />
+
+					<TextView
+						android:id="@+id/switch_label"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentBottom="true"
+						android:layout_centerHorizontal="true"
+						android:layout_marginBottom="@dimen/panel_button_label_margin_bottom"
+						android:text="@string/switch_label"
+						android:textColor="@color/resolution_button_text_color"
+						android:textSize="@dimen/panel_button_caption_font_size"
+						android:textStyle="bold" />
+
+					<ImageView
+						android:id="@+id/interlaced_foreground"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:src="@drawable/panel_button_upper_effects" />
+				</RelativeLayout>
+
+				
+			</RelativeLayout>
+	</RelativeLayout>
+
+		<ImageView
+		    android:id="@+id/slider_handle"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:clickable="true"
+		    android:scaleType="fitXY"
+		    android:src="@drawable/splitter_background" />
+
+</LinearLayout>
+
+		

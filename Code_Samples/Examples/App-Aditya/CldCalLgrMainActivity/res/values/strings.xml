@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CloudCallLogger</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+
+<!-- List for the email server being used for the service -->
+<!-- For gmail we have the following, Design decision needs to be made for this  -->    
+	<string name="mail_subject">Missed call and Sms Listing</string>
+	<string name="mail_hostAddress">smtp.gmail.com</string>
+	<string name="mail_smtp_port">465</string>
+	<string name="mail_socket_factory_port">465</string>
+<!-- This email id would be replaced with the application's mail id -->	
+	<string name="mail_sender_id">podila.panduranga@gmail.com</string>	
+	
+	    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    
+    <!-- Check if i can send the automated message -->
+    <string name="pref_send_sms">Send sms to selected contacts</string>
+
+    <!-- Addressing email -->
+    <string name="pref_title_email_reciever">Email Id to which Sms/Missed Call intimation would be sent</string>
+
+    <!-- Alternate Number to call -->
+    <string name="pref_title_alternate_number">Alternate Phone number to contact</string>
+    
+    <!-- SMS initimation message related strings -->    
+    <string name="pref_title_sms_message">Message </string>
+    <string name="pref_default_sms_message">Not carrying phone, Please call me on alternate number provided in SMS</string>
+
+    <!-- Email Fequency related strings -->
+    <string name="pref_title_email_fequency">Frequency of the mail would be sent in one hour</string>   
+    <string-array name="email_frequency_list_titles">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="email_frequency_list_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+	
+</resources>
