@@ -13,7 +13,7 @@ class BaseClass
         virtual void PrintBuffer(char *p)
         {
             printf("%s\n",p);
-            printf("%s\n",Buffer);
+            //printf("%s\n",Buffer);
         }
 };
 
@@ -24,7 +24,8 @@ class MyClass1:public BaseClass
         using BaseClass::PrintBuffer;
         void PrintBuffer(char *p)
         {
-            printf("MyClass1: \n");
+  
+            printf("MyClass1: PrintBuffer \n");
             BaseClass::PrintBuffer("Base from C1");
         }
 };
@@ -35,7 +36,7 @@ class MyClass2:public BaseClass
         using BaseClass::PrintBuffer;
         void PrintBuffer(char *p)
         {
-            printf("MyClass2: \n");
+            printf("MyClass2: PrintBuffer\n");
             BaseClass::PrintBuffer("Base from C2");
         }
 };

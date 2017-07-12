@@ -51,19 +51,18 @@ ArrayClass<Array>::ArrayClass(Array aArray[], int aSize) {
 template <typename Array>
 int ArrayClass<Array>::PrintArray(){
  
-  if(mSize>0 && mArrayPtr != NULL) {
-  
+  if(mSize>0 && mArrayPtr != NULL) 
+  {
     for(int i =0 ;  i< mSize; i++) {
       std::cout << "\t "  << *(mArrayPtr + i);
-       
     }
     std::cout << std::endl;
-   } 
-   else {
+  } 
+  else {
    
      std::cout << " nothing to print man \n" << std::endl; 
      return -1;
-   }
+  }
   return 0;
 }
 
