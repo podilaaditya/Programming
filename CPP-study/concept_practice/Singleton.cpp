@@ -18,7 +18,6 @@ class Singleton {
         Singleton() {
            cout << " Create an instance of the Single ton "  << endl ;
         }
-
 };
 
 atomic<Singleton*> Singleton::mPtrInstance { nullptr };
@@ -27,11 +26,13 @@ std::mutex Singleton::m_;
 Singleton* Singleton::getInstance() {
 
   if(mPtrInstance == nullptr) {
-      lock_guard<mutex> lock(m_);
+    //  lock_guard<mutex> lock(m_);
+    m_.lock();
       if(mPtrInstance == nullptr) {
         cout << "create first time" << endl;
         mPtrInstance = new Singleton();
       }
+    m_.unlock();  
   }
 
   return mPtrInstance;
