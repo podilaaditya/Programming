@@ -14,14 +14,15 @@ class Singleton {
         static Singleton* getInstance();
         
   private:
-        // 
+        // concreate singleton class  
         Singleton() {
            cout << " Create an instance of the Single ton "  << endl ;
         }
 
+        Singleton(const Singleton&) {};
 };
 
-atomic<Singleton*> Singleton::mPtrInstance { nullptr };
+atomic<Singleton*> Singleton::mPtrInstance  { nullptr };
 std::mutex Singleton::m_;
 
 Singleton* Singleton::getInstance() {
