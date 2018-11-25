@@ -14,32 +14,59 @@ using std::setw;
 // the type is not know yet and will 
 // be defined by instantiation 
 // of object of class array<T> from main
+
+/*
+
+ */
 template< typename T > class ArrayCls {
 	private:
-		int size;
-		T *myarray;
+		int mSize;
+		T  *mPtrMyArray;
 	
 	public:
-	// constructor with user pre-defined size
-	array (int s) {
-		size = s;
-		myarray = new T [size];
-	}
-	// calss array member function to set element of myarray 
-	// with type T values
-	void setArray ( int elem, T val) {
-		myarray[elem] = val;
-	}
+		// constructor with user pre-defined size
 
-	// for loop to display all elements of an array
-	void getArray () {
-//      for ( int j = 0; j < size; j++ ) {
-// // typeid will retriev a type for each value
-//         cout << setw( 7 ) << j << setw( 13 ) << myarray[ j ] 
-// << " type: " << typeid(myarray[ j ]).name() << endl;
-// 	}
-// 	cout << "-----------------------------" << endl;
-	}
+		/**
+		 * 
+		 */
+		array (int s) {
+			mSize = s;
+			mPtrMyArray = new T [size];
+		}
+		// class array member function to set element of myarray 
+		// with type T values
+		/**
+		 * [setArray description]
+		 * @param int aElem : postion of the t
+		 * @param T   aVal  : value to be inserted in the array.
+		 */
+		void addElement ( int aElem, T aVal) {
+			myarray[elem] = val;
+		}
+
+		//TODO: we have to decide the need for this since it would be a 
+		// leak of memory space to the requesting entity. 
+		// what if the requesting entity would use the pointer to iterate over the data and change or 
+
+		/**
+		 * this would allow the user to get the template array as a pointer 	
+		 */
+		/*void getArray (void) {
+
+
+		}*/
+
+		/**
+		 * @param
+		 * @return
+		 */
+		bool deleteElement(T aVal) {
+			// delete b
+			bool 
+
+		}
+
+		
 };
 
 #endif
