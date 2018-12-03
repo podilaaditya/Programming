@@ -1,3 +1,5 @@
+#ifndef  __GDS_H__
+#define  __GDS_H__
 
 #include "ArrayHeader.h"
 
@@ -18,13 +20,13 @@ public:
 		GDS_STRUCTURE
 	} GDSTYPE;
 
-	GDS(GDSTYPE aType){
+	inline GDS(GDSTYPE aType){
 
-	};
+	}
 
-	GDS(GDSTYPE aType){
+	inline GDS(GDSTYPE aType){
 		
-	};
+	}
 
     /**
      * @param
@@ -51,3 +53,5 @@ public:
 	int searchGDS();
 
 }
+
+#endif // for #ifndef  __GDS_H__
