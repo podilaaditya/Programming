@@ -23,30 +23,20 @@ template< typename T > class ArrayCls {
 	public:
 		// constructor with user pre-defined size
 
-		inline array (int aSize) {
-			
-			if (ISNEG(aSize) && aSize !=0 ) {
-				mSize = aSize;				
-				mPtrMyArray = new T [mSize]; 
-			} else {
-				mSize =  DEFAULT_ARRAY_SIZE; 
-				mPtrMyArray = new T [mSize]; 
-			}
-		}
+		inline array (int aSize); 
 
 		/**
 		 * [resizeArray description]
 		 * @param  aNewSize [description]
 		 * @return          [description]
-		 */
-		
-		bool resizeArray(int aNewSize) {
+		 */		
+		bool resizeArray(int aNewSize);
 
 			// we need to check if the older array is allocated memory
 			// only then we will resize // create a new array copy all 
 			// the contents to it an remove the previous content or array 
 			// by calling delete on the array
-		}
+		
 
 // Operations on the elements.
 		/**
@@ -54,18 +44,14 @@ template< typename T > class ArrayCls {
 		 * @param int aElem : postion of the t
 		 * @param T   aVal  : value to be inserted in the array.
 		 */
-		inline void addElement ( int aElem, T aVal) {
-			myarray[elem] = val;
-		}
+		inline void addElement ( int aElem, T aVal);
 
 		/**
-		 * @param
-		 * @return
+		 * [deleteElement description]
+		 * @param  aVal [description]
+		 * @return      [description]
 		 */
-		inline bool deleteElement(T aVal) {
-			// delete b
-			bool isDeleted = false;
-		}
+		inline bool deleteElement(T aVal);
 
 		/**
 		 * [swapElements description]
@@ -73,10 +59,7 @@ template< typename T > class ArrayCls {
 		 * @param  aRight [description]
 		 * @return        [description]
 		 */
-		inline bool swapElements(int aLeft,  int aRight) {
-			// this method would get the element from position  provided in left 
-			// and swap with the position provided in right 
-		}
+		inline bool swapElements(int aLeft,  int aRight);
 
 		/**
 		 * [mergeArray description]
@@ -84,19 +67,15 @@ template< typename T > class ArrayCls {
 		 * @param  aPtrRight [description]
 		 * @return           [description]
 		 */
-		inline T* mergeArray(T *aPtrLeft, T *aPtrRight) {
-			// this methods would take 2 arrays and merge them into one 
-			// and return the  pointer to the newly created array ( memory 
-			// allocated on heap)
-			// 
-			
-			//1. get the sum of sizes of the left, right array
-			int lSizeOfMergedArray = aPtrLeft->getSizeOfArray() + aPtrRight->getSizeOfArray();
-			
+		inline T* mergeArray(T *aPtrLeft, T *aPtrRight); 
 
-		}
-
+//#######################################
 //Standard getter and setter methods bellow. 
+		/**
+		 * [getSizeOfArray description]
+		 * @return  [description]
+		 */
+		 int getSizeOfArray(void);
 
 		/**
 		 * [getElementPos :: 
@@ -107,14 +86,7 @@ template< typename T > class ArrayCls {
 		 * @param  Val [description]
 		 * @return     [description]
 		 */
-		inline int getSizeOfArray(void) {
-			return this.mSize;
-		}
-
-
-		inline int getElementPos(T Val) {
-
-		}
+		int getElementPos(T Val);
 
 
 
