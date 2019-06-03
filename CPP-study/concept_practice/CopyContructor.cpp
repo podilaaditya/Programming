@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-class CopyConstructor
-{
+class CopyConstructor {
+
 	char *s_copy;
 	public:
 	CopyConstructor(const char *str)
@@ -17,7 +17,7 @@ class CopyConstructor
 
 	CopyConstructor (const CopyConstructor &str)
 	{
-	        cout<<"Copy Constructor "<<endl;
+	    cout<<"Copy Constructor "<<endl;
 		s_copy = new char[16]; //Dynamic memory alocation
 		strcpy(s_copy, str.s_copy);
 	}
@@ -40,6 +40,7 @@ class CopyConstructor
 		}
 	}
 };
+
 int main()
 {
 	CopyConstructor c1("Copy");
