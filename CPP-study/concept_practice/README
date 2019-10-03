@@ -1,13 +1,14 @@
+
+#Compilation Related stuff over here.
 we will be using the g++ compiler for the C++ code and the c code would be using gcc compiler
 
-
 # Singleton.cpp is a cpp code which is using the  thread library 
-#Compile the file 
+# Compile the file 
 $ g++ -pthread -o run  Singleton.cpp
 
 
 
-#TODO
+#TODO And Pending Activities
 1. Would need to add the make which should be configurable and create the binary for the 
 file which has been create or edited recently 
 
