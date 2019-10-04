@@ -18,6 +18,10 @@ class Singleton {
         Singleton() {
            cout << " Create an instance of the Single ton "  << endl ;
         }
+
+        Singleton(Singleton&) {
+           cout << "Not Allowed in Singleton";
+        }
 };
 
 Singleton* Singleton::mPtrInstance = nullptr ;
