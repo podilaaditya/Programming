@@ -7,7 +7,7 @@ using namespace std;
 
 class Singleton {
   private:
-        static atomic<Singleton*> mPtrInstance;
+        static Singleton* mPtrInstance;
         static mutex m_;
   public:
         // Make the constructor as private 
@@ -24,7 +24,7 @@ class Singleton {
         }
 };
 
-atomic<Singleton*> Singleton::mPtrInstance  { nullptr };
+Singleton* Singleton::mPtrInstance = nullptr ;
 std::mutex Singleton::m_;
 
 Singleton* Singleton::getInstance() {

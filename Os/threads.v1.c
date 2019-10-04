@@ -19,10 +19,11 @@ void *worker(void *arg) {
 int
 main(int argc, char *argv[])
 {
+    
     if (argc != 2) { 
-	fprintf(stderr, "usage: threads <value>\n"); 
-	exit(1); 
-    } 
+    	fprintf(stderr, "usage: threads <value>\n"); 
+    	exit(1); 
+    }
     loops = atoi(argv[1]);
     pthread_t p1, p2;
     printf("Initial value : %d\n", counter);
