@@ -27,6 +27,7 @@ class MyObservable {
      void RemoveObserver(MyObserver& o);
      void NotifyObservers();
      void Trigger();
+     friend ostream & operator << (ostream &out, const MyObservable &obj); 
 };
 
 
@@ -61,6 +62,13 @@ void MyObservable::NotifyObservers()
 }
 
 
+ostream & operator << (ostream &out, const MyObservable &c) 
+{ 
+    out << "c.observers Would need to be print "<< endl; 
+    //out << "+i" << c.imag << endl; 
+    return out; 
+} 
+
 // TEST METHOD TO TRIGGER
 // // IN THE REAL SCENARIO THIS IS NOT REQUIRED
 
@@ -84,7 +92,7 @@ class MyClass : public MyObserver {
         }
 
         void Notify() {
-            cout << "Received a change event" << endl;
+            cout << "Received a change event in [MyClass] --> [Observer]" << endl;
         }
 };
 
@@ -92,6 +100,7 @@ int main()
 {
       MyObservable* observable = MyObservable::GetInstance();
       MyClass* obj = new MyClass();
+      cout << observable <<  endl;
       observable->Trigger();
 
   return 0;
