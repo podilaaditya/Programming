@@ -9,6 +9,109 @@
 #include <mutex>
 
 
+class Logger
+{
+
+	private:
+		char mActiveFileName[1024]; 
+		char mNextFileName[1024];
+
+		struct LoggerFileCntrl {
+		  void 	*udata;
+		  // lock the file in multi-thread logging
+		  std::mutex writeLock; 
+		  FILE 	*fp;
+		  char 	fileName[1024];
+		  int 	level;
+		  int 	quiet;
+		};
+
+		enum LOGGING_LEVEL { 
+			LOG_TRACE,
+			LOG_DEBUG, 
+			LOG_INFO, 
+			LOG_WARN, 
+			LOG_ERROR, 
+			LOG_FATAL 
+		} mLogLevel;
+
+		enum FILE_ROUTE{
+			CONSOLE = 10,
+			ERROR = 11,
+			DISK =12
+
+		}  mFileRoute;
+		
+
+	private:
+		Logger();
+		Logger(const Logger& obj);
+
+		/*
+		
+		*/
+		static inline char *timenow() {
+
+		    static char buffer[64];
+		    time_t rawtime;
+		    struct tm *timeinfo;
+		    
+		    time(&rawtime);
+		    timeinfo = localtime(&rawtime);
+		    
+		    strftime(buffer, 64, "%Y-%m-%d %H:%M:%S", timeinfo);    
+		    return buffer;
+		}
+
+				/*
+		1. This method would return the File pointer 
+		2. 
+		# Info
+			#Step 1
+				This function would need to check this.
+				1. Check which file is being actively written into 
+				2. Return the file pointer to the one actively written 
+					2.a keep the active file pointer before we return  
+						(before returning, we do the next step)
+					2.b Keep check on which is next file  pointer to be returned 
+					2.c Return the file pointers and the opening is returned only in Write mode.
+					2.d The check for the records being written is taken care in printToFile call.	 
+		*/
+		FILE *returnFileDescriptor(FILE_ROUTE aRoute);
+
+
+	public:
+		
+
+		/*
+		#Function Parameter description
+		1. This method would take the parameters 
+		2. Format
+		3. Values to be printed to file
+
+		#Function Return value.
+		 Retruns the number of charecters returned.
+
+		#Logic 
+			#Step 1
+				Once the limit of lines in a file reach the max set limit 
+				we will move to next file. If the file allready present we just
+				open it in write mode, not in appen mode, and write into it.
+			#Step 2 ( check )
+				Once we reach the max file limit we re open the first file and write into
+				it. and the file is opened in Write mode only. 
+		*/
+		int printToConsole(int loglvl, const char* str, ...);
+		int printToFile(int loglvl, const char* str, ...);
+
+		// 
+		static Logger *getInstance():
+
+
+};
+#endif
+
+
 // // To enable the File Logging set to 1
 // #define FILE_PRINT 0
 // /*  this defines number of file we would cycle with 
@@ -71,90 +174,3 @@
 // #endif
 
 
-
-class Logger{
-
-	private:
-		char mActiveFileName[1024]; 
-		char mNextFileName[1024];
-
-		struct LoggerFileCntrl {
-		  void 	*udata;
-		  // lock the file in multi-thread logging
-		  std::mutex writeLock; 
-		  FILE 	*fp;
-		  char 	fileName[1024];
-		  int 	level;
-		  int 	quiet;
-		};
-
-		enum { 
-			LOG_TRACE,
-			LOG_DEBUG, 
-			LOG_INFO, 
-			LOG_WARN, 
-			LOG_ERROR, 
-			LOG_FATAL 
-		};
-		
-
-	private:
-		Logger();
-		Logger(const Logger& obj);
-
-		/*
-		
-		*/
-		static inline char *timenow() {
-
-		    static char buffer[64];
-		    time_t rawtime;
-		    struct tm *timeinfo;
-		    
-		    time(&rawtime);
-		    timeinfo = localtime(&rawtime);
-		    
-		    strftime(buffer, 64, "%Y-%m-%d %H:%M:%S", timeinfo);    
-		    return buffer;
-		}
-
-	public:
-		
-		/*
-		1. This method would return the File pointer 
-		2. 
-		# Info
-			#Step 1
-				This function would need to check this.
-				1. Check which file is being actively written into 
-				2. Return the file pointer to the one actively written 
-					2.a keep the active file pointer before we return  
-						(before returning, we do the next step)
-					2.b Keep check on which is next file  pointer to be returned 
-					2.c Return the file pointers and the opening is returned only in Write mode.
-					2.d The check for the records being written is taken care in printToFile call.	 
-		*/
-		FILE *returnFileDescriptor();
-
-		/*
-		#Function Parameter description
-		1. This method would take the parameters 
-		2. Format
-		3. Values to be printed to file
-
-		#Function Return value.
-		 Retruns the number of charecters returned.
-
-		#Logic 
-			#Step 1
-				Once the limit of lines in a file reach the max set limit 
-				we will move to next file. If the file allready present we just
-				open it in write mode, not in appen mode, and write into it.
-			#Step 2 ( check )
-				Once we reach the max file limit we re open the first file and write into
-				it. and the file is opened in Write mode only. 
-		*/
-		int printToFile(int loglvl, const char* str, ...);
-
-};
-#endif
