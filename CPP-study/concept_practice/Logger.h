@@ -3,11 +3,15 @@
 
 #include <time.h>
 #include <string.h>
-#include <stdlib.h>
-#include <stdarg.h>
+#include <cstdlib.h>
 #include <cstdarg>
 #include <mutex>
-
+#include <iostream>
+#include <atomic>
+#include <thread>
+#include <sys/stat>
+#include <fstream>
+#include <cstdio.h>
 
 class Logger
 {
@@ -15,6 +19,9 @@ class Logger
 	private:
 		char mActiveFileName[1024]; 
 		char mNextFileName[1024];
+		static mutex  mMtxLock;
+		static Logger *mLoggerInstance;
+
 
 		struct LoggerFileCntrl {
 		  void 	*udata;
@@ -47,9 +54,11 @@ class Logger
 		Logger();
 		Logger(const Logger& obj);
 
-		/*
-		
-		*/
+		//file Checking  methods
+		bool fileExists(const char* file);
+		bool fileExists(const std::string& file);
+
+
 		static inline char *timenow() {
 
 		    static char buffer[64];
@@ -63,7 +72,7 @@ class Logger
 		    return buffer;
 		}
 
-				/*
+		/*
 		1. This method would return the File pointer 
 		2. 
 		# Info
@@ -81,8 +90,6 @@ class Logger
 
 
 	public:
-		
-
 		/*
 		#Function Parameter description
 		1. This method would take the parameters 
@@ -101,8 +108,9 @@ class Logger
 				Once we reach the max file limit we re open the first file and write into
 				it. and the file is opened in Write mode only. 
 		*/
-		int printToConsole(int loglvl, const char* str, ...);
-		int printToFile(int loglvl, const char* str, ...);
+		int printToLog(FILE_ROUTE fileRoute,LOGGING_LEVEL loglvl, const char* str, ...);
+		int printToConsole(FILE *ptr,LOGGING_LEVEL loglvl, const char* str, ...);
+		int printToFile(FILE *ptr,LOGGING_LEVEL loglvl, const char* str, ...);
 
 		// 
 		static Logger *getInstance():
