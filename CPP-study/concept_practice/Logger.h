@@ -18,12 +18,13 @@
 #include <errno.h>
 
 #define PATH_FOR_LOGS "//tmp//logger//"
+#define FILE_NAME_PREFIX "Log_"
 
 class Logger
 {
 
 	private:
-		int mActiveIndex 
+		int mActiveIndex=0; 
 		char mNextFileName[255];
 		char mPathForLogs[4096];
 		const int const mLogFileMax = 5;
@@ -88,11 +89,27 @@ class Logger
 		    return buffer;
 		}
 
+		static inline char *DayOfMonth() {
+
+		    static char buffer;
+		    time_t rawtime;
+		    struct tm *timeinfo;
+		    
+		    time(&rawtime);
+		    timeinfo = localtime(&rawtime);
+		    
+		    strftime(buffer, 1, "%d", timeinfo.tm_mday);    
+		    return buffer;
+		}
+
+
+
+
 		/*
 		1. This method would set the File pointer 
 		*/
 		
-		void setFileDescriptor(FILE_ROUTE aRoute, int aIndex=0)
+		void setFileDescriptor(FILE_ROUTE aRoute);
 		//int printLog(FILE_ROUTE fileRoute,LOGGING_LEVEL loglvl, const char* str, ...);
 
 

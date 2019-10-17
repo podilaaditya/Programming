@@ -36,6 +36,7 @@ int Logger::printLog(FILE_ROUTE fileRoute,LOGGING_LEVEL loglvl, const char* str,
 	else if(fileRoute == FILE_ROUTE::DISK) {
 		setFileDescriptor(fileRoute);
 
+
 	}
 
 
@@ -43,29 +44,30 @@ int Logger::printLog(FILE_ROUTE fileRoute,LOGGING_LEVEL loglvl, const char* str,
 
 
 /* This gets called only once .. when the file descriptor is not assigned*/
-void Logger::setFileDescriptor(FILE_ROUTE aRoute, int aIndex=0) {
+void Logger::setFileDescriptor(FILE_ROUTE aRoute ) {
 
 	if(aRoute == FILE_ROUTE::CONSOLE) {
 		// assign the file pointer for STDOUT_FILENO
 		//mLoggerConsoleFile is to be assigned
-		mLoggerConsoleFile.writeLock.lock();
-		mLoggerConsoleFile.fp =  STDOUT_FILENO;
-		mLoggerConsoleFile.writeLock.unlock();
+		this->mLoggerConsoleFile.writeLock.lock();
+		this->mLoggerConsoleFile.fp =  STDOUT_FILENO;
+		this->mLoggerConsoleFile.writeLock.unlock();
 
 	} 
 	else if(aRoute == FILE_ROUTE::ERROR) {
 		// assign the file pointer for STDERR_FILENO  
 		// mLoggerErrorConsoleFile is to be assigned
 		//
-		mLoggerErrorConsoleFile.writeLock.lock();
-		mLoggerErrorConsoleFile.fp =  STDERR_FILENO;
-		mLoggerErrorConsoleFile.writeLock.unlock();
+		this->mLoggerErrorConsoleFile.writeLock.lock();
+		this->mLoggerErrorConsoleFile.fp =  STDERR_FILENO;
+		this->mLoggerErrorConsoleFile.writeLock.unlock();
 
 	} 
 	else if(aRoute == FILE_ROUTE::DISK) {
 		// mLoggerDiskFile
 
-		mLoggerDiskFile.writeLock.lock();
+
+		
 		//mLoggerDiskFile.fp =  ;
 /*		
 		Logic is to to check if the file exists,  Since 
@@ -94,18 +96,39 @@ void Logger::setFileDescriptor(FILE_ROUTE aRoute, int aIndex=0) {
 		2. if files are there then check if the Next supposed to be file
 		   create the file and return the file pointer, incase it is allready 
 		   created then open it and assign the FP.  
+
+		## File Naming logic
+		   Log_Day(number of day in the month)_<0,1,2,3,4>.log
 		##
 		1. 
 		  a. We will close the FP for the present index  
-		  b. since we get the active index of the file we will need to next index
-		  c. The index if it reaches < mLogFileMax from 0 till 4 if the max is 5
-		  1 
+		  b. since we get the active index of the file we will need to move to next index
+		  c. The index if it reaches < mLogFileMax from 0 till 4 if the max number is 5.
+		  d. 
 
 */
 
-		if()
+		if(this->mActiveIndex == 0) {
+			// this is the first file we are writing or the object is 
+			// created first time.
+			// check the existance of path and create it 
 
-		mLoggerDiskFile.writeLock.unlock();		 
+		}
+		else {
+			// Close the file for the index 
+
+			//	
+			if(this->mActiveIndex ==  (this->mLogFileMax-1)) {
+				this->mActiveIndex == 0;
+			} else if( this->mActiveIndex < 0) {
+				this->mActiveIndex = 0;
+			}
+			this->mActiveIndex++; 
+			this->mLoggerDiskFile[mActiveIndex].writeLock.lock();
+			// We will check if the File 
+
+		}
+
 	}
 
 }	
