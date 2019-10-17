@@ -4,21 +4,29 @@
 #include <time.h>
 #include <string.h>
 #include <cstdlib.h>
+#include <cstdio.h>
 #include <cstdarg>
-#include <mutex>
+#include <sys/stat>
+
 #include <iostream>
 #include <atomic>
+#include <mutex>
 #include <thread>
-#include <sys/stat>
+
 #include <fstream>
-#include <cstdio.h>
+
+#include <errno.h>
+
+#define PATH_FOR_LOGS "//tmp//logger//"
 
 class Logger
 {
 
 	private:
-		char mActiveFileName[1024]; 
-		char mNextFileName[1024];
+		int mActiveIndex 
+		char mNextFileName[255];
+		char mPathForLogs[4096];
+		const int const mLogFileMax = 5;
 		static mutex  mMtxLock;
 		static Logger *mLoggerInstance;
 
@@ -28,10 +36,14 @@ class Logger
 		  // lock the file in multi-thread logging
 		  std::mutex writeLock; 
 		  FILE 	*fp;
-		  char 	fileName[1024];
+		  char 	filePath[4096];
 		  int 	level;
 		  int 	quiet;
 		};
+
+		LoggerFileCntrl mLoggerConsoleFile;
+		LoggerFileCntrl mLoggerErrorConsoleFile;
+		LoggerFileCntrl mLoggerDiskFile[4]; 
 
 		enum LOGGING_LEVEL { 
 			LOG_TRACE,
@@ -51,14 +63,18 @@ class Logger
 		
 
 	private:
-		Logger();
+		Logger() {
+
+		}
 		Logger(const Logger& obj);
 
 		//file Checking  methods
 		bool fileExists(const char* file);
 		bool fileExists(const std::string& file);
 
-
+		bool isDirExist(const std::string& path);
+		bool CheckAndMkdir(const std::string& path);
+		
 		static inline char *timenow() {
 
 		    static char buffer[64];
@@ -73,20 +89,11 @@ class Logger
 		}
 
 		/*
-		1. This method would return the File pointer 
-		2. 
-		# Info
-			#Step 1
-				This function would need to check this.
-				1. Check which file is being actively written into 
-				2. Return the file pointer to the one actively written 
-					2.a keep the active file pointer before we return  
-						(before returning, we do the next step)
-					2.b Keep check on which is next file  pointer to be returned 
-					2.c Return the file pointers and the opening is returned only in Write mode.
-					2.d The check for the records being written is taken care in printToFile call.	 
+		1. This method would set the File pointer 
 		*/
-		FILE *returnFileDescriptor(FILE_ROUTE aRoute);
+		
+		void setFileDescriptor(FILE_ROUTE aRoute, int aIndex=0)
+		//int printLog(FILE_ROUTE fileRoute,LOGGING_LEVEL loglvl, const char* str, ...);
 
 
 	public:
@@ -108,9 +115,10 @@ class Logger
 				Once we reach the max file limit we re open the first file and write into
 				it. and the file is opened in Write mode only. 
 		*/
-		int printToLog(FILE_ROUTE fileRoute,LOGGING_LEVEL loglvl, const char* str, ...);
-		int printToConsole(FILE *ptr,LOGGING_LEVEL loglvl, const char* str, ...);
-		int printToFile(FILE *ptr,LOGGING_LEVEL loglvl, const char* str, ...);
+		//int printToLog(FILE_ROUTE fileRoute,LOGGING_LEVEL loglvl, const char* str, ...);				
+		//int printToFile(FILE *ptr,LOGGING_LEVEL loglvl, const char* str, ...);
+
+		int printLog(FILE_ROUTE fileRoute,LOGGING_LEVEL loglvl, const char* str, ...);
 
 		// 
 		static Logger *getInstance():
