@@ -1,0 +1,34 @@
+aditya@pop-os:~$ cd /proc/147432/
+aditya@pop-os:/proc/147432$ ls
+arch_status  clear_refs       cwd      gid_map    maps        net        oom_score_adj  root       smaps         status         uid_map
+attr         cmdline          environ  io         mem         ns         pagemap        sched      smaps_rollup  syscall        wchan
+autogroup    comm             exe      limits     mountinfo   numa_maps  patch_state    schedstat  stack         task
+auxv         coredump_filter  fd       loginuid   mounts      oom_adj    personality    sessionid  stat          timers
+cgroup       cpuset           fdinfo   map_files  mountstats  oom_score  projid_map     setgroups  statm         timerslack_ns
+aditya@pop-os:/proc/147432$ cat map
+cat: map: No such file or directory
+aditya@pop-os:/proc/147432$ cat maps
+55a6848ea000-55a6848eb000 r--p 00000000 08:00 14074296                   /mnt/Data/work/GitHub/Programming/Practice/bitwise/memory
+55a6848eb000-55a6848ec000 r-xp 00001000 08:00 14074296                   /mnt/Data/work/GitHub/Programming/Practice/bitwise/memory
+55a6848ec000-55a6848ed000 r--p 00002000 08:00 14074296                   /mnt/Data/work/GitHub/Programming/Practice/bitwise/memory
+55a6848ed000-55a6848ee000 r--p 00002000 08:00 14074296                   /mnt/Data/work/GitHub/Programming/Practice/bitwise/memory
+55a6848ee000-55a6848ef000 rw-p 00003000 08:00 14074296                   /mnt/Data/work/GitHub/Programming/Practice/bitwise/memory
+55a685982000-55a6859a3000 rw-p 00000000 00:00 0                          [heap]
+7f5777427000-7f577744c000 r--p 00000000 08:11 7869792                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f577744c000-7f57775c4000 r-xp 00025000 08:11 7869792                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f57775c4000-7f577760e000 r--p 0019d000 08:11 7869792                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f577760e000-7f577760f000 ---p 001e7000 08:11 7869792                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f577760f000-7f5777612000 r--p 001e7000 08:11 7869792                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f5777612000-7f5777615000 rw-p 001ea000 08:11 7869792                    /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f5777615000-7f577761b000 rw-p 00000000 00:00 0 
+7f577763b000-7f577763c000 r--p 00000000 08:11 7869564                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f577763c000-7f577765f000 r-xp 00001000 08:11 7869564                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f577765f000-7f5777667000 r--p 00024000 08:11 7869564                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f5777668000-7f5777669000 r--p 0002c000 08:11 7869564                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f5777669000-7f577766a000 rw-p 0002d000 08:11 7869564                    /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f577766a000-7f577766b000 rw-p 00000000 00:00 0 
+7fffa4f0e000-7fffa4f2f000 rw-p 00000000 00:00 0                          [stack]
+7fffa4f4b000-7fffa4f4e000 r--p 00000000 00:00 0                          [vvar]
+7fffa4f4e000-7fffa4f4f000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+

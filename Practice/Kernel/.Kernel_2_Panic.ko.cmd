@@ -1,0 +1,1 @@
+cmd_/mnt/Data/work/GitHub/Programming/Practice/Kernel/Kernel_2_Panic.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /mnt/Data/work/GitHub/Programming/Practice/Kernel/Kernel_2_Panic.ko /mnt/Data/work/GitHub/Programming/Practice/Kernel/Kernel_2_Panic.o /mnt/Data/work/GitHub/Programming/Practice/Kernel/Kernel_2_Panic.mod.o;  true

@@ -5,21 +5,6 @@ std::mutex Logger::mMtxLock;
 
 // Implementation of Methods which generate logs 
 
-/**/
-/*int Logger::printToLog(FILE_ROUTE fileRoute,LOGGING_LEVEL loglvl, const char* str, ...) {
-	
-	if(fileRoute == FILE_ROUTE::CONSOLE) {
-		//printLog(())
-		setFileDescriptor(fileRoute);
-	}
-	else if(fileRoute == FILE_ROUTE::ERROR) {
-		setFileDescriptor(fileRoute);
-
-	}
-	else if(fileRoute == FILE_ROUTE::DISK) {
-
-	}
-}*/
 
 /**/
 int Logger::printLog(FILE_ROUTE fileRoute,LOGGING_LEVEL loglvl, const char* str, ...) {
@@ -109,9 +94,14 @@ void Logger::setFileDescriptor(FILE_ROUTE aRoute ) {
 */
 
 		if(this->mActiveIndex == 0) {
-			// this is the first file we are writing or the object is 
-			// created first time.
 			// check the existance of path and create it 
+			CheckAndMkdir(PATH_FOR_LOGS);
+			// this is the first file we are writing or the file is 
+			// created first time or this is a second run for the day 
+
+			char lFileName[256]; 
+			
+
 
 		}
 		else {

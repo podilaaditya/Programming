@@ -17,7 +17,7 @@
 
 #include <errno.h>
 
-#define PATH_FOR_LOGS "//tmp//logger//"
+#define PATH_FOR_LOGS "/tmp/logger/"
 #define FILE_NAME_PREFIX "Log_"
 
 class Logger
@@ -110,7 +110,8 @@ class Logger
 		*/
 		
 		void setFileDescriptor(FILE_ROUTE aRoute);
-		//int printLog(FILE_ROUTE fileRoute,LOGGING_LEVEL loglvl, const char* str, ...);
+		void getFileName(char *aStrFileName);
+
 
 
 	public:

@@ -3,6 +3,8 @@
 #include <sys/stat.h> // stat
 #include <errno.h>    // errno, ENOENT, EEXIST
 
+#define FOLDER_PATH "/tmp/Logs/"
+
 bool isDirExist(const std::string& path)
 {
     struct stat info;
@@ -44,9 +46,10 @@ bool makePath(const std::string& path)
 
 int main(int argc, char* ARGV[])
 {
-    for (int i=1; i<argc; i++)
-    {
-        std::cout << "creating " << ARGV[i] << " ... " << (makePath(ARGV[i]) ? "OK" : "failed") << std::endl;
-    }
+    // for (int i=1; i<argc; i++)
+    // {
+    //     std::cout << "creating " << ARGV[i] << " ... " << (makePath(ARGV[i]) ? "OK" : "failed") << std::endl;
+    // }
+    makePath(FOLDER_PATH);
     return 0;
 }
